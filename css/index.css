@@ -115,10 +115,11 @@ body {
   min-width: 200px;
   position: relative;
   top: 100%;
-  left: 25%;
+  left: 15%;
+  right: 15%;
 }
 
-/* line 106, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+/* line 107, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
 .container #logo-holder .logo {
   margin: 0;
   padding: 0;
@@ -126,10 +127,10 @@ body {
   min-width: 200px;
 }
 
-/* line 113, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+/* line 114, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
 .container #logo-holder a {
   font-family: "Roboto", sans-serif;
-  font-size: 150%;
+  font-size: 120%;
   text-decoration: none;
   color: #EFEFEF;
 }
