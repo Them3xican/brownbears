@@ -133,20 +133,4 @@ nav a {
   width: 100%;
 }
 
-/* line 123, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-#links {
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 5%;
-  text-align: left;
-}
-
-/* line 131, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-#links .media-links {
-  margin: 0 auto;
-  padding: 0;
-  width: 5%;
-  margin-left: 5%;
-}
-
 /*# sourceMappingURL=../css/contact.map */
