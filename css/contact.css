@@ -133,4 +133,29 @@ nav a {
   width: 100%;
 }
 
+/* line 123, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+#links {
+  background-color: red;
+  margin-top: 10%;
+}
+
+/* line 127, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+#links .linkpic {
+  width: 20%;
+  padding-top: 10%;
+  padding-left: 10%;
+  min-width: 100px;
+}
+
+/* line 134, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+#links a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #EFEFEF;
+  font-size: 120%;
+  margin-left: 5%;
+  position: relative;
+  bottom: 75px;
+}
+
 /*# sourceMappingURL=../css/contact.map */
