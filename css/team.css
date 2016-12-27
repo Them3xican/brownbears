@@ -1,4 +1,4 @@
-/* line 10, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 10, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 body {
   margin: 0 auto;
   padding: 0;
@@ -7,7 +7,7 @@ body {
   background-color: #2B2B2B;
 }
 
-/* line 18, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 18, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .container {
   margin: 0 auto;
   padding: 0;
@@ -19,7 +19,7 @@ body {
   max-height: 1900px;
 }
 
-/* line 29, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 29, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 table {
   margin: 0 auto;
   padding: 0;
@@ -27,79 +27,79 @@ table {
   height: auto;
 }
 
-/* line 38, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 38, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-1 {
   width: 8.33333333333%;
 }
 
-/* line 43, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 43, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-2 {
   width: 16.6666666667%;
 }
 
-/* line 46, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 46, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-3 {
   width: 25%;
 }
 
-/* line 49, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 49, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-4 {
   width: 33.3333333333%;
 }
 
-/* line 53, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 53, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-5 {
   width: 41.6666666667%;
 }
 
-/* line 56, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 56, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-6 {
   width: 50%;
 }
 
-/* line 59, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 59, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-7 {
   width: 58.3333333333%;
 }
 
-/* line 62, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 62, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-8 {
   width: 66.6666666666%;
 }
 
-/* line 65, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 65, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-9 {
   width: 75%;
 }
 
-/* line 68, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 68, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-10 {
   width: 83.3333333333%;
 }
 
-/* line 71, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 71, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-11 {
   width: 91.6666666666%;
 }
 
-/* line 74, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 74, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .col-12 {
   width: 100%;
 }
 
-/* line 78, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 78, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 [class*="col-"] {
   float: left;
 }
 
-/* line 85, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 85, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 .row:before
 :after {
   clear: both;
   content: "";
 }
 
-/* line 92, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 92, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 nav {
   margin: 0 auto;
   padding: 0;
@@ -108,7 +108,7 @@ nav {
   margin-top: 2%;
 }
 
-/* line 99, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 99, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 nav a {
   font-family: "Roboto", sans-serif;
   font-size: 100%;
@@ -117,7 +117,7 @@ nav a {
   margin-left: 2%;
 }
 
-/* line 108, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 108, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #logo-box {
   margin: 0 auto;
   padding: 0;
@@ -126,14 +126,14 @@ nav a {
   left: 5%;
 }
 
-/* line 116, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 116, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #logo-box .logo {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-/* line 123, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 123, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #img {
   margin: 0 auto;
   padding: 0;
@@ -144,14 +144,14 @@ nav a {
   text-align: right;
 }
 
-/* line 133, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 133, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #img .image {
   margin: 0;
   padding: 0;
   width: 40%;
 }
 
-/* line 140, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 140, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #txt {
   margin: 0 auto;
   padding: 0;
@@ -161,28 +161,28 @@ nav a {
   padding-top: 15%;
 }
 
-/* line 148, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 148, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #txt h1 {
   font-family: "Roboto", sans-serif;
   font-size: 150%;
   color: #EFEFEF;
 }
 
-/* line 154, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 154, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #txt h2 {
   font-family: "Roboto", sans-serif;
   font-size: 130%;
   color: #EFEFEF;
 }
 
-/* line 160, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 160, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #txt p {
   font-family: "Roboto", sans-serif;
   font-size: 120%;
   color: #EFEFEF;
 }
 
-/* line 167, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 167, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #links {
   margin: 0 auto;
   padding: 0;
@@ -193,7 +193,7 @@ nav a {
   text-align: center;
 }
 
-/* line 177, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+/* line 177, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
 #links .media-links {
   margin: 0 auto;
   padding: 0;
