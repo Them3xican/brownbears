@@ -182,17 +182,22 @@ body {
   }
 }
 
+/* line 180, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+.media-links {
+  width: 4%;
+}
+
 @media all and (max-width: 650px) {
-  /* line 190, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 192, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   #logo-box {
     width: 50%;
     left: 20%;
   }
-  /* line 194, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 196, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   #logo-box .logo {
     width: 100%;
   }
-  /* line 199, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 201, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   #logo-box .scroll {
     display: none;
   }
