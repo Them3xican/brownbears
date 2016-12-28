@@ -163,7 +163,6 @@ body {
     
     #logo-box {
         
-    
         .logo {
         padding-top: 50%;
         
@@ -178,7 +177,6 @@ body {
     }
 }
 
-
 @media all and (max-width:800px) {
     
     
@@ -186,9 +184,6 @@ body {
 
 
 @media all and (max-width: 650px) {
-    .container {
-        background-color: red;
-    }
     
     #pic-table {
         width: 90%;
@@ -198,7 +193,7 @@ body {
         width: 75%;
         left: 13%;
         top: 5%;
-        background-color: red;
+        
         
         .logo {
             width: 100%;
@@ -210,12 +205,7 @@ body {
             display: none;
         }
 }
-    #links {
-        
-        .media-links {
-            width: 20%;
-        }
-    }
+    
 }
 @media all and (max-width:480px) {
     
