@@ -161,9 +161,14 @@ body {
         
 @media all and (max-width:980px) {
     
-    
-   
-    
+    #logo-box {
+        .logo {
+        padding-bottom:65%;
+        }
+        .scroll {
+            display: none;
+        }
+    }
 }
 
 @media all and (max-width:800px) {
@@ -180,7 +185,7 @@ body {
         
         .logo {
             width: 120%;
-            padding-bottom:65%;
+            
         }
         
         .scroll {
