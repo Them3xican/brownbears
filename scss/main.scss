@@ -147,7 +147,7 @@ body {
     .media-links {
         margin: 0 auto;
         padding: 0;
-        width:2%;
+        width:3%;
         margin-left: 2%;
         
     }
@@ -177,11 +177,7 @@ body {
         width: 50%;
     }
 }
-#links {
-.media-links {
-    width: 8%;
-}
-}
+
 
 @media all and (max-width:800px) {
     
@@ -202,8 +198,8 @@ body {
         
         .logo {
             width: 100%;
-            padding-top: 10%;
-            padding-bottom: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
         }
         
         .scroll{
