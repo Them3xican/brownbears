@@ -141,6 +141,12 @@ body {
 
 @media all and (max-width: 650px) {
     
+    #logo-holder {
+        position: relative;
+        top: 90%;
+       left:20%;
+       right: 0%;
+    }
 }
 
 @media all and (max-width:480px) {
