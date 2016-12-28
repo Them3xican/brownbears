@@ -117,10 +117,9 @@ body {
   top: 65%;
   left: 20%;
   right: 0%;
-  background-color: red;
 }
 
-/* line 108, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
+/* line 107, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
 .container #logo-holder .logo {
   margin: 0;
   padding: 0;
@@ -128,7 +127,7 @@ body {
   min-width: 200px;
 }
 
-/* line 115, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
+/* line 114, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
 .container #logo-holder a {
   font-family: "Roboto", sans-serif;
   font-size: 120%;
