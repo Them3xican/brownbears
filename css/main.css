@@ -172,27 +172,35 @@ body {
   #logo-box .logo {
     padding-top: 50%;
   }
+  /* line 172, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  .col-3 {
+    width: 50%;
+  }
+  /* line 176, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  .col-6 {
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 650px) {
-  /* line 182, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 190, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   #logo-box {
     width: 50%;
     left: 20%;
   }
-  /* line 186, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 194, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   #logo-box .logo {
     width: 120%;
   }
-  /* line 191, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 199, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   #logo-box .scroll {
     display: none;
   }
-  /* line 196, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 204, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   .col-3 {
     width: 50%;
   }
-  /* line 200, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
+  /* line 208, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   .col-6 {
     width: 100%;
   }
