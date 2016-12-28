@@ -186,7 +186,10 @@ body {
 
 
 @media all and (max-width: 650px) {
-   
+    .container {
+        background-color: red;
+    }
+    
     #pic-table {
         width: 90%;
     }
