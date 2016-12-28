@@ -169,11 +169,11 @@ body {
         
     }
 }
-     .col-3 {
+     #small-block {
         width: 50%;
     }
    
-    .col-6 {
+    #big-block {
         width: 100%;
     }
 }
@@ -200,16 +200,7 @@ body {
             display: none;
         }
     }
-    
-    .col-3 {
-        width: 50%;
-    }
-   
-    .col-6 {
-        width: 100%;
-    }
 }
-
 @media all and (max-width:480px) {
     
 }
