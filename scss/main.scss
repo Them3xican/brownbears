@@ -152,3 +152,56 @@ body {
         
     }
 }
+
+@media all and (max-width:1024px) {
+    
+ 
+}    
+
+        
+@media all and (max-width:980px) {
+    
+    
+   
+    
+}
+
+@media all and (max-width:800px) {
+    
+    
+}
+
+
+@media all and (max-width: 650px) {
+   
+    #logo-box {
+        width: 50%;
+        left: 20%;
+        
+        .logo {
+            width: 120%;
+            padding-bottom:65%;
+        }
+        
+        .scroll {
+            display: none;
+        }
+    }
+    
+    .col-3 {
+        width: 50%;
+    }
+   
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:480px) {
+    
+}
+
+@media all and (max-width:375px){
+   
+
+}

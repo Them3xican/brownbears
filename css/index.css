@@ -137,7 +137,7 @@ body {
 
 @media all and (max-width: 650px) {
   /* line 144, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
-  .container #logo-holder {
+  #logo-holder {
     position: relative;
     top: 80%;
     left: 20%;
