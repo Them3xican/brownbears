@@ -163,9 +163,12 @@ body {
      #logo-box {
         
         .logo {
-        padding-top: 50%;
-        
+        padding-top: 25%;
+        padding-bottom: 25%;    
     }
+         .scroll {
+             display: none;
+         }
 }
      #small-block {
         width: 50%;
