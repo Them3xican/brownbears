@@ -153,20 +153,24 @@ body {
     }
 }
 
-@media all and (max-width:1024px) {
+@media  (max-width:1200px) {
     
- 
-}    
+}
 
         
-@media all and (max-width:980px) {
+@media (max-width:992px) {
     
     #logo-box {
         
         .logo {
-        padding-top: 50%;
-        
+        padding-top: 25%;
+        padding-bottom: 25%;    
+        width: 100%;
     }
+        .scroll {
+            display: none;
+        }
+        
 }
      #small-block {
         width: 50%;
@@ -178,14 +182,8 @@ body {
 }
 
 
-@media all and (max-width:800px) {
-    
-    
-}
+@media all and (max-width:768px) {
 
-
-@media all and (max-width: 650px) {
-    
     #pic-table {
         width: 90%;
     }

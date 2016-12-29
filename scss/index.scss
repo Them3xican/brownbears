@@ -120,36 +120,33 @@ body {
     
 }
 }
-@media all and (max-width:1024px) {
-    
- 
-}    
+/* Custom, iPhone Retina */ 
+    @media (max-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media (max-width : 480px) {
+        
+        .logo {
+            padding-top: 10%;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media (max-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media (max-width : 992px) {
 
         
-@media all and (max-width:980px) {
-    
-    
-   
-    
-}
+    }
 
-@media all and (max-width:800px) {
-    
-    
-}
+    /* Large Devices, Wide Screens */
+    @media (max-width : 1200px) {
 
-
-@media all and (max-width: 650px) {
-    
-}
-
-@media all and (max-width:480px) {
-    
-}
-
-@media all and (max-width:375px){
-   
-
-}
+    }
 
 
