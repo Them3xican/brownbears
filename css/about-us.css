@@ -191,7 +191,6 @@ nav a {
     position: relative;
     margin-top: 10%;
     left: 27%;
-    background-color: red;
   }
   /* line 197, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text {
@@ -202,22 +201,21 @@ nav a {
     text-align: center;
     margin-top: 15%;
     left: 12%;
-    background-color: green;
   }
-  /* line 207, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 206, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text h1 {
     font-family: "Roboto", sans-serif;
     font-size: 400%;
     color: #EFEFEF;
   }
-  /* line 213, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 212, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text p {
     font-family: "Roboto", sans-serif;
     font-size: 200%;
     color: #EFEFEF;
     text-align: justify;
   }
-  /* line 224, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 223, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #links .media-links {
     width: 8%;
   }
