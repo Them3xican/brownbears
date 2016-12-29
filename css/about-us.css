@@ -194,28 +194,6 @@ nav a {
     padding: 0;
     width: 100%;
   }
-  /* line 190, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-  #text {
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    padding-top: 15%;
-    left: 6%;
-    background-color: red;
-  }
-  /* line 199, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-  #text h1 {
-    font-family: "Roboto", sans-serif;
-    font-size: 150%;
-    color: #EFEFEF;
-  }
-  /* line 205, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-  #text p {
-    font-family: "Roboto", sans-serif;
-    font-size: 130%;
-    color: #EFEFEF;
-    text-align: justify;
-  }
 }
 
 /*# sourceMappingURL=../css/about-us.map */
