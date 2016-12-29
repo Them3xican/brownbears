@@ -136,6 +136,20 @@ body {
     }
 }
 
+#txt {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 65%;
+    left: 2%;
+    background-color: red;
+    
+    .h1 {
+        margin: 0;
+        font-family: $Font;
+    }
+}
+
 #links {
     margin: 0 auto;
     padding: 0;
@@ -160,42 +174,7 @@ body {
         
 @media (max-width:992px) {
     
-    #logo-box {
-        
-        .logo {
-        padding-top: 25%;
-        padding-bottom: 25%;    
-        width: 100%;
-    }
-        .scroll {
-            display: none;
-        }
-        
-}
-     #small-block {
-        width: 50%;
-    }
-   
-    #big-block {
-        width: 50%;
-    }
 
-   #links {
-    margin: 0 auto;
-    padding: 0;
-    
-    padding-top: 1%;
-    text-align: right;
-    
-    
-    .media-links {
-        margin: 0 auto;
-        padding: 0;
-        width:8%;
-        margin-left: 2%;
-        
-    }
-}
 }
 
 @media all and (max-width:768px) {

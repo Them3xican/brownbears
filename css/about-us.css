@@ -25,7 +25,6 @@ body {
   padding: 0;
   width: 100%;
   height: auto;
-  background-color: red;
 }
 
 /* line 38, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
@@ -119,7 +118,7 @@ nav a {
 }
 
 /* line 108, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-#logo-box {
+#logo-holder {
   margin: 0 auto;
   padding: 0;
   position: relative;
@@ -128,72 +127,26 @@ nav a {
 }
 
 /* line 116, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-#logo-box .logo {
+#logo-holder .logo {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-/* line 123, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-#text {
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  text-align: center;
-  padding-top: 15%;
-  left: 2%;
-}
-
-/* line 131, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-#text h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 150%;
-  color: #EFEFEF;
-}
-
-/* line 137, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-#text p {
-  font-family: "Roboto", sans-serif;
-  font-size: 130%;
-  color: #EFEFEF;
-  text-align: justify;
-}
-
-/* line 146, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+/* line 122, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
 #links {
   margin: 0 auto;
   padding: 0;
-  position: relative;
-  bottom: 0;
-  left: 35%;
-  padding-top: 10%;
-  text-align: center;
+  padding-top: 1%;
+  text-align: right;
 }
 
-/* line 156, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+/* line 130, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
 #links .media-links {
   margin: 0 auto;
   padding: 0;
   width: 3%;
   margin-left: 2%;
-}
-
-@media (max-width: 992px) {
-  /* line 175, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-  #logo-box {
-    width: 50%;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    top: 0%;
-    left: 30%;
-  }
-  /* line 184, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-  #logo-box .logo {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
 }
 
 /*# sourceMappingURL=../css/about-us.map */
