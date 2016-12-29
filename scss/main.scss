@@ -179,13 +179,23 @@ body {
     #big-block {
         width: 50%;
     }
-}
 
-#links {
+   #links {
+    margin: 0 auto;
+    padding: 0;
+    
+    padding-top: 1%;
+    text-align: right;
+    
     
     .media-links {
-    width: 8%;    
+        margin: 0 auto;
+        padding: 0;
+        width:8%;
+        margin-left: 2%;
+        
     }
+}
 }
 
 @media all and (max-width:768px) {
