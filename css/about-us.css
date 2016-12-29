@@ -207,13 +207,13 @@ nav a {
   /* line 207, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 200%;
+    font-size: 400%;
     color: #EFEFEF;
   }
   /* line 213, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text p {
     font-family: "Roboto", sans-serif;
-    font-size: 160%;
+    font-size: 200%;
     color: #EFEFEF;
     text-align: justify;
   }
