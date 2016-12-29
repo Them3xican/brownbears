@@ -119,11 +119,33 @@ nav {
         width: 100%;
     }
 }
+
+#text {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    padding-top: 15%;
+    left:2%;
+    
+    h1{
+        font-family: $Font;
+        font-size: 150%;
+        color: $FontColor;
+    }
+    
+    p{
+        font-family: $Font;
+        font-size: 130%;
+        color: $FontColor;
+        text-align: justify;
+        
+    }
+}
 #links {
     margin: 0 auto;
     padding: 0;
-    
-    padding-top: 1%;
+    padding-top: 5%;
     text-align: right;
     
     

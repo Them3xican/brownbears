@@ -152,22 +152,6 @@ body {
 }
 
 /* line 139, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-#txt {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  top: 65%;
-  left: 2%;
-  background-color: red;
-}
-
-/* line 147, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-#txt .h1 {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
-
-/* line 153, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
 #links {
   margin: 0 auto;
   padding: 0;
@@ -175,7 +159,7 @@ body {
   text-align: right;
 }
 
-/* line 161, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+/* line 147, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
 #links .media-links {
   margin: 0 auto;
   padding: 0;
