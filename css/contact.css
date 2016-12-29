@@ -198,13 +198,12 @@ nav a {
   #links {
     margin: 0;
     padding: 0;
-    margin-top: 15%;
+    margin-top: 25%;
     position: relative;
-    top: 25%;
     left: 15%;
     text-align: center;
   }
-  /* line 209, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 208, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links .media-links {
     margin: 0 auto;
     width: 10%;
