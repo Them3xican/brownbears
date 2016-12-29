@@ -156,8 +156,72 @@ nav {
     .media-links {
         margin: 0 auto;
         padding: 0;
-        width:2%;
+        width:3%;
         margin-left: 2%;
         
     }
+}
+
+
+@media  (max-width:1200px) {
+    
+}
+
+        
+@media (max-width:992px) {
+    
+    nav {
+        display: none;
+    }
+    
+    #logo-box {
+    
+    width: 50%;    
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top:  0%;
+    left:30%;
+    background-color: green;    
+    
+    .logo {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+    #text {
+    margin: 0 ;
+    padding: 0;
+
+    text-align: center;
+   
+    background-color: red;
+    
+    h1{
+        font-family: $Font;
+        font-size: 150%;
+        color: $FontColor;
+    }
+    
+    p{
+        font-family: $Font;
+        font-size: 130%;
+        color: $FontColor;
+        text-align: justify;
+        
+    }
+}
+}
+@media all and (max-width:768px) {
+
+   
+}
+@media all and (max-width:480px) {
+    
+}
+
+@media all and (max-width:375px){
+   
+
 }
