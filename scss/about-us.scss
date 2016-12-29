@@ -176,7 +176,55 @@ nav {
     /* Medium Devices, Desktops */
     @media (max-width : 992px) {
 
+        nav {
+
+            a{
+                display: none;
+            }
+        }
         
+        #logo-holder {
+            
+        width: 50%;    
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        top:  25%;
+        left:30%;
+        background-color: red;    
+        }
+        
+       #text {
+        width: 75%;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        margin-top: 15%;
+        left:  15%;
+        background-color: green;
+    
+    h1{
+        font-family: $Font;
+        font-size: 150%;
+        color: $FontColor;
+    }
+    
+    p{
+        font-family: $Font;
+        font-size: 130%;
+        color: $FontColor;
+        text-align: justify;
+        
+    }
+}
+        
+        #links {
+            
+            .media-links {
+                width: 8%;
+            }
+        }
     }
 
     /* Large Devices, Wide Screens */

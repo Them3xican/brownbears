@@ -178,6 +178,51 @@ nav a {
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media (max-width: 992px) {
+  /* line 181, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  nav a {
+    display: none;
+  }
+  /* line 186, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  #logo-holder {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 25%;
+    left: 30%;
+    background-color: red;
+  }
+  /* line 197, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  #text {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+    left: 15%;
+    background-color: green;
+  }
+  /* line 207, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  #text h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    color: #EFEFEF;
+  }
+  /* line 213, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  #text p {
+    font-family: "Roboto", sans-serif;
+    font-size: 130%;
+    color: #EFEFEF;
+    text-align: justify;
+  }
+  /* line 224, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  #links .media-links {
+    width: 8%;
+  }
+}
+
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=../css/about-us.map */
