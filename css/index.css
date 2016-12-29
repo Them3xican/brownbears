@@ -137,13 +137,6 @@ body {
 
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
-@media (max-width: 480px) {
-  /* line 131, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
-  .logo {
-    padding-top: 10%;
-  }
-}
-
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */

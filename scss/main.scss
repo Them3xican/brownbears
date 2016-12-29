@@ -181,30 +181,16 @@ body {
     }
 }
 
+#links {
+    
+    .media-links {
+    width: 8%;    
+    }
+}
 
 @media all and (max-width:768px) {
 
-    #pic-table {
-        width: 90%;
-    }
-    
-    #logo-box {
-        width: 75%;
-        left: 13%;
-        top: 5%;
-        
-        
-        .logo {
-            width: 100%;
-            padding-top: 5%;
-            padding-bottom: 5%;
-        }
-        
-        .scroll{
-            display: none;
-        }
-}
-    
+   
 }
 @media all and (max-width:480px) {
     
