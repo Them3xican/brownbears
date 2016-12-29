@@ -118,7 +118,7 @@ nav a {
 }
 
 /* line 108, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-#logo-box {
+#logo-holder {
   margin: 0 auto;
   padding: 0;
   position: relative;
@@ -127,7 +127,7 @@ nav a {
 }
 
 /* line 116, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-#logo-box .logo {
+#logo-holder .logo {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -140,15 +140,14 @@ nav a {
   margin-top: 15%;
   position: relative;
   top: 25%;
-  right: 12%;
+  right: 10%;
   text-align: center;
 }
 
 /* line 132, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-#links .linkpic {
+#links .media-links {
   margin: 0 auto;
   width: 10%;
-  min-width: 10px;
   display: block;
   min-width: 100px;
   margin-top: 10%;
@@ -160,7 +159,7 @@ nav a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #EFEFEF;
-  font-size: 90%;
+  font-size: 150%;
 }
 
 /* line 149, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
@@ -174,7 +173,47 @@ nav a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #EFEFEF;
-  font-size: 90%;
+  font-size: 150%;
 }
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media (max-width: 992px) {
+  /* line 183, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  nav a {
+    display: none;
+  }
+  /* line 188, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  #logo-holder {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-top: 10%;
+    left: 25%;
+  }
+  /* line 200, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  #links {
+    margin: 0;
+    padding: 0;
+    margin-top: 15%;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    text-align: center;
+  }
+  /* line 209, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  #links .media-links {
+    margin: 0 auto;
+    width: 10%;
+    display: block;
+    min-width: 100px;
+    margin-top: 10%;
+  }
+}
+
+/* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=../css/contact.map */

@@ -105,7 +105,7 @@ nav {
     }
 }
 
-#logo-box {
+#logo-holder {
     
     margin: 0 auto;
     padding: 0;
@@ -126,13 +126,13 @@ nav {
     margin-top: 15%;
    position: relative;
     top:  25%;
-    right: 12%;
+    right: 10%;
     text-align: center;
     
-    .linkpic{
+    .media-links{
         margin: 0 auto;
         width: 10%;
-        min-width: 10px;
+        
        display: block;
         min-width: 100px;
         margin-top: 10%;
@@ -144,7 +144,7 @@ nav {
         font-family: $Font;
         text-decoration: none;
         color: $FontColor;
-        font-size: 90%;
+        font-size: 150%;
         
          &:hover {
                 text-decoration: underline;
@@ -156,6 +156,70 @@ nav {
         font-family: $Font;
         text-decoration: none;
         color: $FontColor;
-        font-size: 90%;
+        font-size: 150%;
     }
 }
+
+ /* Custom, iPhone Retina */ 
+    @media (max-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media (max-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media (max-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media (max-width : 992px) {
+
+        nav {
+
+            a{
+                display: none;
+            }
+        }
+        
+        #logo-holder {
+            
+        width: 50%;    
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        margin-top: 10%;
+        left:25%;
+   
+        }
+        
+
+        #links{
+    margin: 0 ;
+    padding: 0;
+    margin-top: 15%;
+   position: relative;
+    top:  25%;
+    left: 15%;
+    text-align: center;
+    
+    .media-links{
+        margin: 0 auto;
+        width: 10%;
+        
+       display: block;
+        min-width: 100px;
+        margin-top: 10%;
+        
+    }
+        }
+        
+    }
+
+    /* Large Devices, Wide Screens */
+    @media (max-width : 1200px) {
+
+    }
