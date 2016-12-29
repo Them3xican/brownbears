@@ -179,11 +179,7 @@ nav a {
 }
 
 @media (max-width: 992px) {
-  /* line 173, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
-  nav {
-    display: none;
-  }
-  /* line 177, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 175, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #logo-box {
     width: 50%;
     margin: 0 auto;
@@ -191,28 +187,29 @@ nav a {
     position: relative;
     top: 0%;
     left: 30%;
-    background-color: green;
   }
-  /* line 187, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 184, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #logo-box .logo {
     margin: 0;
     padding: 0;
     width: 100%;
   }
-  /* line 193, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 190, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
+    padding-top: 15%;
+    left: 6%;
     background-color: red;
   }
-  /* line 201, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 199, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text h1 {
     font-family: "Roboto", sans-serif;
     font-size: 150%;
     color: #EFEFEF;
   }
-  /* line 207, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 205, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   #text p {
     font-family: "Roboto", sans-serif;
     font-size: 130%;
