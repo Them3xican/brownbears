@@ -159,8 +159,28 @@ body {
 
         
 @media (max-width:992px) {
-    
 
+     #logo-box {
+        
+        .logo {
+        padding-top: 50%;
+        
+    }
+}
+     #small-block {
+        width: 50%;
+    }
+   
+    #big-block {
+        width: 50%;
+    }
+}
+
+#links {
+    
+    .media-links {
+        width: 8%;
+    }
 }
 
 @media all and (max-width:768px) {

@@ -167,4 +167,24 @@ body {
   margin-left: 2%;
 }
 
+@media (max-width: 992px) {
+  /* line 165, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  #logo-box .logo {
+    padding-top: 50%;
+  }
+  /* line 170, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  #small-block {
+    width: 50%;
+  }
+  /* line 174, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  #big-block {
+    width: 50%;
+  }
+}
+
+/* line 181, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+#links .media-links {
+  width: 8%;
+}
+
 /*# sourceMappingURL=../css/main.map */
