@@ -145,12 +145,12 @@ body {
         
         #logo-holder {
             
-            width: 100%;    
+            width: 75%;    
             margin: 0 auto;
             padding: 0;
             position: relative;
             top: 75%;
-            left: 0%;
+            left: 12%;
             text-align: center;
             
             .logo {
@@ -162,7 +162,7 @@ body {
                 text-decoration: none;
                 color: $FontColor;
                 font-weight: 200;
-                font-size: 250%;
+                font-size: 200%;
                 text-align: center;
             }
         }
