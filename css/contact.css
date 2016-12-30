@@ -191,14 +191,14 @@ nav a {
     margin: 0 auto;
     padding: 0;
     position: relative;
-    margin-top: 10%;
+    margin-top: 15%;
     left: 14%;
   }
   /* line 200, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links {
     margin: 0;
     padding: 0;
-    margin-top: 15%;
+    margin-top: 10%;
     position: relative;
     left: 16%;
     text-align: center;
