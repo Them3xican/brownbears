@@ -12,7 +12,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: $BackColor;
+    background-color: $BackColor ;
 }
 
 .container {
@@ -24,25 +24,22 @@ body {
     min-height: $Min-height;
     max-width: $Max-width;
     max-height: $Max-height; 
-    text-align: center;
-    
-    .table {
+}
+
+.table {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-height: 500px;
-    }
+    height: auto;
     
-    .row {
-        text-align: center;
-        height: 300px;
-        max-height: 500px;
-    }
+   
+}
 
-        .col-1 {
+.col-1 {
             width: 8.33333333333%;
 
         }
+
         .col-2 {
             width: 16.6666666667%;
         }
@@ -58,7 +55,6 @@ body {
         }
         .col-6 {
             width:50%;
-
         }
         .col-7 {
             width: 58.3333333333%;
@@ -93,41 +89,40 @@ body {
           content:"";
         }
 
-    #logo-holder {
+#logo-holder {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    
+    .logo {
         margin: 0;
         padding: 0;
-        text-align: center;
-        min-width: 200px;
-        position: relative;
-        top: 65%;
-       left:20%;
-       right: 0%;
-        
-        
-        .logo {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            min-width: 200px;
-        }
-        
-        a{
-            font-family: $Font;
-            font-size:120%;
-            text-decoration: none;
-            color: $FontColor;
-        }
+        width: 100%;
+        min-width: 200%;
+        margin-top: 30%;
+    }
     
+    a {
+        font-family: $Font;
+        text-decoration: none;
+        color: $FontColor;
+        font-weight: 200;
+        font-size: 200%;
+        text-align: center;
+    }
 }
-}
-/* Custom, iPhone Retina */ 
+
+
+ /* Custom, iPhone Retina */ 
     @media (max-width : 320px) {
 
     }
 
     /* Extra Small Devices, Phones */ 
     @media (max-width : 480px) {
-        
+
     }
 
     /* Small Devices, Tablets */
@@ -137,14 +132,19 @@ body {
 
     /* Medium Devices, Desktops */
     @media (max-width : 992px) {
-
+        
         #logo-holder {
-            width: 75%;    
-        margin: 0 auto;
-        padding: 0;
-        position: relative;
-        margin-top: 10%;
-        left:5%;
+            
+            width: 50%;    
+            margin: 0 auto;
+            padding: 0;
+            position: relative;
+            margin-top: 40%;
+            left:0%;
+            text-align: center;
+            .logo {
+                width: 90%;
+            }
         }
     }
 
@@ -152,5 +152,3 @@ body {
     @media (max-width : 1200px) {
 
     }
-
-
