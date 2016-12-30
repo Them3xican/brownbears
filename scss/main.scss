@@ -96,7 +96,7 @@ body {
           content:"";
         }
 
-#logo-box {
+#logo-holder{
     
     margin: 0 auto;
     padding: 0;
@@ -160,7 +160,8 @@ body {
         
 @media (max-width:992px) {
 
-     #logo-box {
+     #logo-holder {
+         width: 75%;
         
         .logo {
         padding-top: 25%;
