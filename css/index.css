@@ -139,6 +139,18 @@ body {
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media (max-width: 992px) {
+  /* line 141, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  #logo-holder {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-top: 10%;
+    left: 13%;
+  }
+}
+
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=../css/index.map */
