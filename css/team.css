@@ -225,6 +225,7 @@ nav a {
   /* line 228, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   #img {
     width: 100%;
+    right: 12%;
   }
   /* line 233, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   #txt {
@@ -233,7 +234,7 @@ nav a {
     width: 100%;
     position: relative;
     right: 0%;
-    left: 45%;
+    left: 40%;
     padding-top: 5%;
   }
   /* line 247, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
