@@ -26,7 +26,7 @@ body {
     max-height: $Max-height; 
 }
 
-table {
+.table {
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -105,7 +105,7 @@ nav {
     }
 }
 
-#logo-box {
+#logo-holder {
     
     margin: 0 auto;
     padding: 0;
@@ -123,17 +123,13 @@ nav {
 #img {
     margin: 0 auto;
     padding: 0;
-    position: relative;
-    bottom: 0;
-    padding-top: 15%;
-    right: 10%;
+   position: relative;
+     padding-top: 13%;
+    right:15%;
     text-align: right;
     
-    
     .image {
-        margin: 0;
-        padding: 0;
-        width: 40%;
+        width:75%;
     }
 }
 
@@ -141,47 +137,125 @@ nav {
     margin: 0 auto;
     padding: 0;
     position: relative;
-    bottom: 0;
-    right: 5%;
-    padding-top: 15%;
+    right: 10%;
+    padding-top: 18%;
     
     h1 {
+        margin: 0;
+        padding: 0;
         font-family: $Font;
-        font-size: 150%;
         color: $FontColor;
+        font-weight: 200;
+        font-size: 200%;
+        
     }
     
-    h2{
+    h2 {
+        margin: 0;
+        padding: 0;
         font-family: $Font;
-        font-size: 130%;
         color: $FontColor;
+        font-weight: 200;
+        font-size: 170%;
+        text-decoration: underline;
     }
     
     p {
+        margin: 0;
+        padding: 0;
         font-family: $Font;
-        font-size: 120%;
         color: $FontColor;
+        font-weight: 200;
+        font-size: 120%;
     }
 }
+
+
+
 
 #links {
     margin: 0 auto;
     padding: 0;
-    position: relative;
-    bottom: 0;
-    left: 35%;
-    padding-top: 10%;
-    text-align: center;
+    padding-top: 5%;
+    text-align: right;
     
     
     .media-links {
         margin: 0 auto;
         padding: 0;
-        width:2%;
+        width: 2%;
         margin-left: 2%;
         
     }
 }
+
+ /* Custom, iPhone Retina */ 
+    @media (max-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media (max-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media (max-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media (max-width : 992px) {
+
+        nav {
+
+            a{
+                display: none;
+            }
+        }
+        
+         #logo-holder {
+            
+        width: 75%;    
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        margin-top: 15%;
+        left:13%;
+
+        }
+        
+        #img {
+            width: 100%;
+            
+        }
+        
+        #txt {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            position: relative;
+            right: 0%;
+            left: 35%;
+            padding-top: 5%;
+        }
+        
+        
+        
+        #links {
+            
+            .media-links {
+            
+                width: 8%;
+                
+            }
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media (max-width : 1200px) {
+
+    }
 
 
 
