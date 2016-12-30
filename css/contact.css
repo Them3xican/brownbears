@@ -187,18 +187,14 @@ nav a {
   }
   /* line 188, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #logo-holder {
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     padding: 0;
     position: relative;
     margin-top: 10%;
     left: 25%;
   }
-  /* line 197, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-  #logo-holder .logo {
-    min-width: 400px;
-  }
-  /* line 203, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 200, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links {
     margin: 0;
     padding: 0;
@@ -207,7 +203,7 @@ nav a {
     left: 18%;
     text-align: center;
   }
-  /* line 211, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 208, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links .media-links {
     margin: 0 auto;
     width: 5%;
