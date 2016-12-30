@@ -31,9 +31,16 @@ body {
     padding: 0;
     width: 100%;
     height: auto;
+    max-height: 500px;
     
-   
+      
 }
+
+.row {
+        text-align: center;
+        height: 300px;
+        max-height: 500px;
+    }
 
 .col-1 {
             width: 8.33333333333%;
@@ -90,29 +97,32 @@ body {
         }
 
 #logo-holder {
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    left: 25%;
-    text-align: center;
-    
-    .logo {
         margin: 0;
         padding: 0;
-        width: 100%;
-        min-width: 200%;
-        margin-top: 30%;
-    }
-    
-    a {
-        font-family: $Font;
-        text-decoration: none;
-        color: $FontColor;
-        font-weight: 200;
-        font-size: 200%;
         text-align: center;
-    }
+        min-width: 200px;
+        position: relative;
+        top: 65%;
+       left:20%;
+       right: 0%;
+        
+        
+        .logo {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-width: 200px;
+        }
+        
+        a{
+            font-family: $Font;
+            font-size:120%;
+            text-decoration: none;
+            color: $FontColor;
+        }
+    
 }
+
 
 
  /* Custom, iPhone Retina */ 
@@ -135,15 +145,25 @@ body {
         
         #logo-holder {
             
-            width: 50%;    
+            width: 100%;    
             margin: 0 auto;
             padding: 0;
             position: relative;
-            margin-top: 20%;
-            left:0%;
+            top: 75%;
+            left: 0%;
             text-align: center;
+            
             .logo {
-                width: 90%;
+                width: 100%;
+            }
+            
+            a {
+                font-family: $Font;
+                text-decoration: none;
+                color: $FontColor;
+                font-weight: 200;
+                font-size: 250%;
+                text-align: center;
             }
         }
     }
