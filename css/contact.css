@@ -206,9 +206,8 @@ nav a {
   /* line 208, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links .media-links {
     margin: 0 auto;
-    width: 10%;
+    width: 5%;
     display: block;
-    min-width: 150px;
     margin-top: 30%;
   }
 }
