@@ -32,7 +32,7 @@ body {
 .row {
   text-align: center;
   height: 300px;
-  max-height: 500px;
+  max-height: 600px;
 }
 
 /* line 45, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
@@ -114,8 +114,8 @@ body {
   text-align: center;
   min-width: 200px;
   position: relative;
-  top: 65%;
-  left: 20%;
+  top: 100%;
+  left: 26%;
   right: 0%;
 }
 
