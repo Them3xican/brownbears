@@ -287,8 +287,12 @@ a, .menu, .menu li{
         }
         
         #img {
-            width: 100%;
-            right: 12%;
+            width: 50%;
+            left: 20%;
+            
+            .image {
+                width: 75%;
+            }
         }
         
         #txt {

@@ -296,10 +296,14 @@ a, .menu, .menu li {
   }
   /* line 289, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   #img {
-    width: 100%;
-    right: 12%;
+    width: 50%;
+    left: 20%;
   }
-  /* line 294, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 293, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  #img .image {
+    width: 75%;
+  }
+  /* line 298, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   #txt {
     margin: 0 auto;
     padding: 0;
@@ -310,7 +314,7 @@ a, .menu, .menu li {
     padding-top: 5%;
     text-align: center;
   }
-  /* line 309, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 313, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   #links .media-links {
     width: 8%;
   }
