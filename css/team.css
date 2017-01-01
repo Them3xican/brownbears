@@ -116,8 +116,8 @@ body {
 .menu li {
   list-style: none;
   margin: 5px 0;
-  width: 50px;
-  height: 6px;
+  width: 100px;
+  height: 8px;
   background: #949494;
 }
 
@@ -263,7 +263,6 @@ a, .menu, .menu li {
   /* line 253, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .menu {
     display: block;
-    width: 5%;
   }
   /* line 257, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   nav {
