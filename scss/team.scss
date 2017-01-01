@@ -201,7 +201,7 @@ a, .menu, .menu li{
         font-family: $Font;
         color: $FontColor;
         font-weight: 200;
-        font-size: 170%;
+        font-size: 200%;
         text-decoration: underline;
     }
     
@@ -211,7 +211,8 @@ a, .menu, .menu li{
         font-family: $Font;
         color: $FontColor;
         font-weight: 200;
-        font-size: 120%;
+        font-size: 150%;
+        line-height: 2;
     }
 }
 
