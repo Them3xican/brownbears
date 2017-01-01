@@ -90,7 +90,7 @@ body {
         }
 
 .menu{
-	display:none;
+	display: none;
 	width:50px;
 	height: 40px;
     padding:1em; 
@@ -116,7 +116,8 @@ body {
 nav{
 	padding:.2em 0;
 	font:1em sans-serif;
-    margin-right: 5%;
+    background-color: $BackColor;
+    text-align: right;
 }
 	
 nav ul li{
@@ -130,10 +131,11 @@ nav ul li{
   
 nav a{
 	display:block;
-	color:#a40348;
-	text-decoration:none;
-	text-transform:uppercase;
-
+	font-family: $Font;
+    font-size: 100%;
+    text-decoration: none;
+    color: $FontColor;
+    margin-left: 2%;
 }
 nav a:hover{
 	color:#999
@@ -256,12 +258,12 @@ a, .menu, .menu li{
 			width: 50%;
 			display:none;
 			position:absolute;
-			background:#fff;
+			background:$BackColor;
 		}
         nav ul li{
 			display:block;
 			margin:.6em .8em!important;
-			border-bottom:1px solid #ccc
+			border-bottom:2px solid #ccc;
 		}
         nav ul li:last-child{
             border:none
