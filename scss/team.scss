@@ -255,7 +255,7 @@ a, .menu, .menu li{
 			width:5%;
 		}
         nav{
-			width: 50%;
+			width: 25%;
 			display:none;
 			position:absolute;
 			background:$BackColor;
@@ -267,6 +267,10 @@ a, .menu, .menu li{
 		}
         nav ul li:last-child{
             border:none
+        }
+        
+        nav a{
+            font-size: 150%;
         }
         
          #logo-holder {
