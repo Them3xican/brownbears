@@ -267,10 +267,10 @@ a, .menu, .menu li {
   }
   /* line 257, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   nav {
-    width: 25%;
+    width: 100%;
     display: none;
-    position: absolute;
     background: #2B2B2B;
+    text-align: center;
   }
   /* line 263, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   nav ul li {

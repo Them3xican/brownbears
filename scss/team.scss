@@ -255,10 +255,10 @@ a, .menu, .menu li{
 			width:5%;
 		}
         nav{
-			width: 25%;
+			width: 100%;
 			display:none;
-			position:absolute;
 			background:$BackColor;
+            text-align: center;
 		}
         nav ul li{
 			display:block;
