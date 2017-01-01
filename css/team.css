@@ -310,7 +310,7 @@ a, .menu, .menu li {
     width: 100%;
     position: relative;
     right: 0%;
-    left: 0%;
+    left: 1%;
     padding-top: 5%;
     text-align: center;
   }
