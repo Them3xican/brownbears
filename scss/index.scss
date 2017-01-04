@@ -135,7 +135,14 @@ body {
     /* Small Devices, Tablets */
     @media (max-width : 769px) {
     
-        #logo-holder {
+      
+        
+    }
+
+    /* Medium Devices, Desktops */
+    @media (max-width : 992px) {
+        
+          #logo-holder {
             
             width: 75%;    
             margin: 0 auto;
@@ -159,13 +166,6 @@ body {
                 text-align: center;
             }
         }
-        
-    }
-
-    /* Medium Devices, Desktops */
-    @media (max-width : 992px) {
-        
-        
     }
 
     /* Large Devices, Wide Screens */
