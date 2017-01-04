@@ -157,12 +157,8 @@ body {
 
         
 @media (max-width:992px) {
-}
 
-
-@media all and (max-width:770px) {
-
-        #logo-holder {
+     #logo-holder {
          width: 75%;
          left: 14%;
         
@@ -189,6 +185,11 @@ body {
             width: 8%;
         }
     }
+}
+
+@media all and (max-width:768px) {
+
+   
 }
 @media all and (max-width:480px) {
     
