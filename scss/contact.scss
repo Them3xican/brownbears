@@ -169,37 +169,31 @@ a, .menu, .menu li{
     margin-top: 15%;
    position: relative;
     top:  25%;
-    right: 10%;
-    text-align: center;
+    right: 15%;
     
     .media-links{
         margin: 0 auto;
-        width: 10%;
-        
-       display: block;
+        width: 20%;
+       display: inline;
         min-width: 100px;
-        margin-top: 10%;
-        
+        margin-top: 10%;    
+        margin-left: 5%;
     }
     
-    a{
-       margin: 0 auto;
-        font-family: $Font;
-        text-decoration: none;
-        color: $FontColor;
-        font-size: 150%;
-        
-         &:hover {
-                text-decoration: underline;
-            }
+    #inner {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
     }
-    
-    h1{
+
+    h1, h2{
         margin: 0 auto;
         font-family: $Font;
         text-decoration: none;
         color: $FontColor;
         font-size: 150%;
+        margin-left: 6%;
+        margin-top: 2%;
     }
 }
 
@@ -272,6 +266,12 @@ a, .menu, .menu li{
         margin-top: 30%;
         
     }
+            #inner {
+                width: 50%
+            }        
+            #inner  h1 {
+                display: none;
+            }
         }
         
     }
