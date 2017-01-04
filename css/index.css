@@ -153,12 +153,13 @@ body {
     top: 90%;
     left: 12%;
     text-align: center;
+    background-color: red;
   }
-  /* line 157, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 158, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder .logo {
     width: 100%;
   }
-  /* line 161, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 162, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder a {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
