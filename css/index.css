@@ -141,7 +141,7 @@ body {
 }
 
 /* Small Devices, Tablets */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   /* line 138, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder {
     width: 75%;
