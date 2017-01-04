@@ -167,7 +167,7 @@ body {
   margin-left: 2%;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 770px) {
   /* line 165, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   #logo-holder {
     width: 75%;

@@ -224,7 +224,7 @@ a, .menu, .menu li {
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   /* line 213, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .menu {
     display: block;
