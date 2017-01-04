@@ -213,13 +213,8 @@ a, .menu, .menu li{
 
     /* Small Devices, Tablets */
     @media (max-width : 768px) {
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media (max-width : 992px) {
-
-      .menu{
+    
+        .menu{
 			display:block;
 			
 		}
@@ -285,6 +280,12 @@ a, .menu, .menu li{
         }
     }
 
+    
+
+    /* Medium Devices, Desktops */
+    @media (max-width : 992px) {
+
+}
     /* Large Devices, Wide Screens */
     @media (max-width : 1200px) {
 

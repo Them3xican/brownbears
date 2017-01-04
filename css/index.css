@@ -143,23 +143,22 @@ body {
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
-/* Medium Devices, Desktops */
-@media (max-width: 992px) {
-  /* line 152, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+@media (max-width: 768px) {
+  /* line 147, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder {
     width: 75%;
     margin: 0 auto;
     padding: 0;
     position: relative;
-    top: 60%;
+    top: 90%;
     left: 12%;
     text-align: center;
   }
-  /* line 162, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 157, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder .logo {
     width: 100%;
   }
-  /* line 166, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 161, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder a {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
@@ -170,6 +169,7 @@ body {
   }
 }
 
+/* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=../css/index.map */
