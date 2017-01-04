@@ -134,20 +134,7 @@ body {
     /* Extra Small Devices, Phones */ 
     @media (max-width : 480px) {
 
-        #logo-holder {
-            
-            width: 75%;    
-            margin: 0 auto;
-            padding: 0;
-            position: relative;
-            top: 75%;
-            left: 12%;
-            text-align: center;
-            
-            .logo {
-                width: 100%;
-            }
-    }
+
 }
     /* Small Devices, Tablets */
     @media (max-width : 768px) {
@@ -163,7 +150,7 @@ body {
             margin: 0 auto;
             padding: 0;
             position: relative;
-            top: 75%;
+            top: 90%;
             left: 12%;
             text-align: center;
             
