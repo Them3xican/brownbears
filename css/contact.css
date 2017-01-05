@@ -199,18 +199,35 @@ a, .menu, .menu li {
   width: 20%;
   display: inline;
   min-width: 100px;
-  margin-top: 10%;
+  margin-top: 30%;
   margin-left: 5%;
 }
 
-/* line 183, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+/* line 184, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
 #links #inner {
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  position: relative;
+  top: 10%;
 }
 
-/* line 189, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+/* line 193, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+#links #insta {
+  margin-left: 5%;
+}
+
+/* line 196, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+#links #phone {
+  margin-left: 5%;
+}
+
+/* line 199, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+#links #email {
+  margin-left: 25%;
+}
+
+/* line 203, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
 #links h1, #links h2 {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
@@ -226,32 +243,32 @@ a, .menu, .menu li {
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 @media (max-width: 992px) {
-  /* line 218, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 232, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .menu {
     display: block;
   }
-  /* line 222, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 236, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   nav {
     width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
   }
-  /* line 228, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 242, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   nav ul li {
     display: block;
     margin: 0.6em 0.8em !important;
     border-bottom: 2px solid #ccc;
   }
-  /* line 233, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 247, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   nav ul li:last-child {
     border: none;
   }
-  /* line 237, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 251, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   nav a {
     font-size: 150%;
   }
-  /* line 241, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 255, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #logo-holder {
     width: 75%;
     margin: 0 auto;
@@ -260,7 +277,7 @@ a, .menu, .menu li {
     margin-top: 10%;
     left: 13%;
   }
-  /* line 253, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 267, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links {
     margin: 0;
     padding: 0;
@@ -269,18 +286,18 @@ a, .menu, .menu li {
     left: 14%;
     text-align: center;
   }
-  /* line 261, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 275, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links .media-links {
     margin: 0 auto;
     width: 5%;
     display: block;
     margin-top: 30%;
   }
-  /* line 269, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 283, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links #inner {
     width: 50%;
   }
-  /* line 272, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 286, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   #links #inner h1 {
     display: none;
   }

@@ -176,14 +176,28 @@ a, .menu, .menu li{
         width: 20%;
        display: inline;
         min-width: 100px;
-        margin-top: 10%;    
+        margin-top: 30%;    
         margin-left: 5%;
+       
     }
     
     #inner {
         margin: 0 auto;
         padding: 0;
         text-align: center;
+        position: relative;
+        top: 10%;
+      
+    }
+    
+    #insta {
+        margin-left: 5%;
+    }
+    #phone {
+        margin-left: 5%;
+    }
+    #email{
+        margin-left: 25%;
     }
 
     h1, h2{
