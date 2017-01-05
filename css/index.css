@@ -173,7 +173,7 @@ body {
 @media (max-width: 480px) {
   /* line 182, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder {
-    margin-top: 300px;
+    padding-top: 300px;
   }
 }
 
