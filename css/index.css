@@ -170,5 +170,30 @@ body {
 /* Large Devices, Wide Screens */
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
+@media (max-width: 480px) {
+  /* line 182, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  #logo-holder {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 90%;
+    left: 12%;
+    text-align: center;
+  }
+  /* line 193, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  #logo-holder .logo {
+    width: 100%;
+  }
+  /* line 197, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  #logo-holder a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #EFEFEF;
+    font-weight: 200;
+    font-size: 200%;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=../css/index.map */
