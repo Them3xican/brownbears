@@ -146,6 +146,10 @@ body {
   #logo-holder {
     background-color: red;
   }
+  /* line 146, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  .logo {
+    width: 5%;
+  }
 }
 
 /*# sourceMappingURL=../css/index.map */
