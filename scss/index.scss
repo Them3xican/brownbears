@@ -181,27 +181,8 @@ body {
 
          #logo-holder {
             
-            width: 75%;    
-            margin: 0 auto;
-            padding: 0;
-            position: relative;
-            top: 90%;
-            left: 12%;
-            text-align: center;
-
+             margin-top: 15%;
             
-            .logo {
-                width: 100%;
-            }
-            
-            a {
-                font-family: $Font;
-                text-decoration: none;
-                color: $FontColor;
-                font-weight: 200;
-                font-size: 200%;
-                text-align: center;
-            }
         }
 
 }
