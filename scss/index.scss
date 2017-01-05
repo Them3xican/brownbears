@@ -103,7 +103,7 @@ body {
         text-align: center;
         min-width: 200px;
         position: relative;
-        top: 50%;
+        top: 100%;
        left:26%;
        right: 0%;
         
@@ -128,9 +128,22 @@ body {
     
 }
 
+/* Custom, iPhone Retina */ 
+    @media (max-width : 320px) {
 
+    }
 
- 
+    /* Extra Small Devices, Phones */ 
+    @media (max-width : 480px) {
+
+         #logo-holder {
+            
+
+        background-color: red;
+            
+        }
+
+}
     /* Small Devices, Tablets */
     @media (max-width : 769px) {
     
@@ -144,12 +157,10 @@ body {
           #logo-holder {
             
             width: 75%;    
-            margin: 0 auto;
-            padding: 0;
             position: relative;
-            top: 50%;
+            top: 100%;
             left: 12%;
-            text-align: center;
+          
 
             
             .logo {
@@ -171,18 +182,3 @@ body {
     @media (max-width : 1200px) {
 
     }
-/* Custom, iPhone Retina */ 
-    @media (max-width : 320px) {
-
-    }
-
-    /* Extra Small Devices, Phones */ 
-    @media (max-width : 480px) {
-
-         #logo-holder {
-            
-            padding-top: 300px;
-            
-        }
-
-}
