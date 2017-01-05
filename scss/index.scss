@@ -129,34 +129,24 @@ body {
 }
 
 /* Custom, iPhone Retina */ 
-    @media screen and (max-width : 320px) {
+    @media (max-width : 320px) {
 
     }
 
     /* Extra Small Devices, Phones */ 
-    @media screen and (max-width : 480px) {
+    @media  (max-width : 480px) {
 
-         #logo-holder {
-            
-
-        background-color: red;
-            
-        }
-        
-        .logo {
-            width: 5%;
-        }
 }
 
  /* Small Devices, Tablets */
-    @media screen and (max-width : 769px) {
+    @media  (max-width : 769px) {
     
       
         
     }
 
     /* Medium Devices, Desktops */
-    @media screen and (max-width : 992px) {
+    @media  (max-width : 992px) {
         
           #logo-holder {
             
@@ -183,7 +173,7 @@ body {
     }
 
     /* Large Devices, Wide Screens */
-    @media screen and (max-width : 1200px) {
+    @media (max-width : 1200px) {
 
     }
 

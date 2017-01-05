@@ -141,32 +141,21 @@ body {
 
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
-@media screen and (max-width: 480px) {
-  /* line 139, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
-  #logo-holder {
-    background-color: red;
-  }
-  /* line 146, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
-  .logo {
-    width: 5%;
-  }
-}
-
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
-@media screen and (max-width: 992px) {
-  /* line 161, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+@media (max-width: 992px) {
+  /* line 151, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder {
     width: 75%;
     position: relative;
     top: 100%;
     left: 12%;
   }
-  /* line 170, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 160, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder .logo {
     width: 100%;
   }
-  /* line 174, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 164, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   #logo-holder a {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
