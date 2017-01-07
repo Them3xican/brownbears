@@ -9,7 +9,6 @@ $tablet-min: 481px;
 $phone-max: 480px;
 $phone-min:320px;
 
-
 body {
     margin: 0 auto;
     padding: 0;
@@ -90,25 +89,21 @@ body {
         }
 
 
-#logo-holder {
+#logo-holder{
+    
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top:  70%;
+    left:25%;
+    text-align: center;
+    
+    .logo {
         margin: 0;
         padding: 0;
-        text-align: center;
-        min-width: 200px;
-        position: relative;
-        top: 100%;
-       left:26%;
-       right: 0%;
-        
-        
-        .logo {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            min-width: 200px;
-            position: relative;
-            top: 0%;
-        }
+        width: 100%;
+        padding-top: 30%;
+    }
         
         a{
             font-family: $Font;
@@ -121,10 +116,12 @@ body {
     
 }
 
+
+
 /* mobile site */
 
  
-@media only screen and  (min-width: 320px) {
+@media only screen and  (min-width: 300px) {
     
     .container {
         margin: 0 auto;
@@ -158,15 +155,13 @@ body {
             margin-top: 35%;
             width: 80%;
             right: 40%;
-           background-color: red;
         }
     }
 }
     
-
-/* desktop */
-
-@media only screen and(min-width:769px) {
+@media only screen and (min-width:770px) {
     
-    
+
+
+
 }
