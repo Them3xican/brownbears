@@ -144,7 +144,7 @@ body {
 }
 
 /* mobile site */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 740px) {
   /* line 147, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
@@ -161,7 +161,6 @@ body {
   /* line 158, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder .logo {
     width: 100%;
-    background-color: red;
   }
 }
 
