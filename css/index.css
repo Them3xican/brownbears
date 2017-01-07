@@ -99,14 +99,13 @@ body {
 #logo-holder {
   margin: 0 auto;
   padding: 0;
+  margin-top: 15%;
   position: relative;
-  top: 70%;
   left: 25%;
   text-align: center;
-  background-color: darkblue;
 }
 
-/* line 104, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+/* line 103, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
 #logo-holder .logo {
   margin: 0;
   padding: 0;
@@ -114,7 +113,7 @@ body {
   padding-top: 30%;
 }
 
-/* line 111, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+/* line 110, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
 #logo-holder a {
   font-family: "Roboto", sans-serif;
   font-size: 120%;
@@ -126,7 +125,7 @@ body {
 
 /* tablet site */
 @media only screen and (max-width: 768px) {
-  /* line 126, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 125, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -134,22 +133,18 @@ body {
     max-width: 768px;
     min-width: 481px;
   }
-  /* line 133, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 132, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 5%;
     width: 80%;
     right: 40%;
     background-color: grey;
   }
-  /* line 140, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
-  .container .logo {
-    display: none;
-  }
 }
 
 /* mobile site */
 @media only screen and (max-width: 300px) {
-  /* line 151, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 146, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -157,7 +152,7 @@ body {
     max-width: 480px;
     min-width: 320px;
   }
-  /* line 158, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 153, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 55%;
     width: 90%;
