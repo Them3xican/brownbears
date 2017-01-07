@@ -144,7 +144,7 @@ body {
 }
 
 /* mobile site */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 480px) {
   /* line 147, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
