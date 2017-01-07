@@ -157,8 +157,7 @@ body {
   .container #logo-holder {
     margin-top: 55%;
     width: 90%;
-    left: 5%;
-    background-color: red;
+    left: 0%;
   }
 }
 
