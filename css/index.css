@@ -156,11 +156,11 @@ body {
   /* line 154, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 20%;
-    width: 100%;
+    width: 80%;
   }
   /* line 158, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder .logo {
-    width: 20%;
+    width: 100%;
     background-color: red;
   }
 }
