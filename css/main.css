@@ -167,33 +167,4 @@ body {
   margin-left: 2%;
 }
 
-@media (max-width: 992px) {
-  /* line 161, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  #logo-holder {
-    width: 75%;
-    left: 14%;
-  }
-  /* line 165, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  #logo-holder .logo {
-    padding-top: 25%;
-    padding-bottom: 25%;
-  }
-  /* line 169, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  #logo-holder .scroll {
-    display: none;
-  }
-  /* line 173, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  #small-block {
-    width: 50%;
-  }
-  /* line 177, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  #big-block {
-    width: 50%;
-  }
-  /* line 184, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  #links .media-links {
-    width: 8%;
-  }
-}
-
 /*# sourceMappingURL=../css/main.map */
