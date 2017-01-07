@@ -159,7 +159,7 @@ body {
     width: 100%;
   }
   /* line 158, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
-  .container .logo {
+  .container #logo-holder .logo {
     width: 20%;
     background-color: red;
   }
