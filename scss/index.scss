@@ -117,7 +117,25 @@ body {
     
 }
 
+/* tablet site */
 
+@media only screen and (max-width:769px) {
+    
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $tablet-max;
+        min-width: $tablet-min;
+    
+       #logo-holder {
+            margin-top: 5%;
+            width: 80%;
+            right: 40%;
+           background-color: purple;
+        }
+    }
+}
 
 /* mobile site */
 
@@ -136,34 +154,7 @@ body {
             width: 90%;
             left:5%;
             background-color: red;
-        }
-        
-}
-    
+        }   
+    }   
 }
 
-/* tablet site */
-
-@media only screen and (max-width:769px) {
-    
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: $tablet-max;
-        min-width: $tablet-min;
-    
-       #logo-holder {
-            margin-top: 5%;
-            width: 80%;
-            right: 40%;
-        }
-    }
-}
-    
-@media only screen and (max-width: 1280px) {
-    
-
-
-
-}
