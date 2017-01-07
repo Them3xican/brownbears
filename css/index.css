@@ -103,9 +103,10 @@ body {
   top: 70%;
   left: 25%;
   text-align: center;
+  background-color: green;
 }
 
-/* line 101, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+/* line 102, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
 #logo-holder .logo {
   margin: 0;
   padding: 0;
@@ -113,7 +114,7 @@ body {
   padding-top: 30%;
 }
 
-/* line 108, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+/* line 109, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
 #logo-holder a {
   font-family: "Roboto", sans-serif;
   font-size: 120%;
@@ -124,8 +125,8 @@ body {
 }
 
 /* mobile site */
-@media only screen and (min-width: 300px) {
-  /* line 126, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+@media only screen and (max-width: 480px) {
+  /* line 127, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -133,7 +134,7 @@ body {
     max-width: 480px;
     min-width: 320px;
   }
-  /* line 133, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 134, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 55%;
     width: 90%;
@@ -143,8 +144,8 @@ body {
 }
 
 /* tablet site */
-@media only screen and (min-width: 481px) {
-  /* line 148, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+@media only screen and (max-width: 769px) {
+  /* line 149, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -152,7 +153,7 @@ body {
     max-width: 768px;
     min-width: 481px;
   }
-  /* line 155, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 156, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 5%;
     width: 80%;
