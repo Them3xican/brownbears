@@ -13,7 +13,7 @@ body {
   padding: 0;
   width: 100%;
   max-width: 1280px;
-  min-width: 770px;
+  min-width: 1024px;
 }
 
 /* line 30, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
@@ -124,7 +124,7 @@ body {
 }
 
 /* tablet site */
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1024px) {
   /* line 125, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
