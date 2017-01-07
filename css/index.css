@@ -137,14 +137,15 @@ body {
   .container #logo-holder {
     margin-top: 5%;
     width: 80%;
-    right: 40%;
-    background-color: yellow;
+    position: relative;
+    left: 5%;
+    margin-top: 25%;
   }
 }
 
 /* mobile site */
 @media only screen and (max-width: 300px) {
-  /* line 146, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 147, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -152,7 +153,7 @@ body {
     max-width: 480px;
     min-width: 320px;
   }
-  /* line 153, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 154, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 55%;
     width: 90%;
