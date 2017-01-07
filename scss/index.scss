@@ -118,11 +118,13 @@ body {
     
 }
 
-/* tablet site */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
-@media only screen and  (max-width: 1024px) {
-    
-    .container {
+      .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
@@ -137,6 +139,35 @@ body {
            margin-top: 10%;
         }
     }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $tablet-max;
+        min-width: $tablet-min;
+    
+       #logo-holder {
+            margin-top: 5%;
+            width: 80%;
+           position: relative;
+            left: 10%;
+           margin-top: 15%;
+        }
+    }
+}
+
+@media only screen and  (max-width: 1024px) {
+    
+    
 }
 
 /* mobile site */
