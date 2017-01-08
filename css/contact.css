@@ -432,12 +432,13 @@ a, .menu, .menu li {
   /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 25%;
+    top: 0;
   }
-  /* line 429, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 430, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
     right: 50%;
   }
-  /* line 433, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 434, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
     font-size: 50%;
     text-align: left;
