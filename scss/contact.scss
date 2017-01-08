@@ -94,13 +94,9 @@ body {
 
 .menu{
 	display: none;
-	width: 100%;
+	width: 50px;
 	height: 40px;
     padding:1em;
-    background-color: red;
-
-    
-    
 }
 	
 .menu:hover{
@@ -114,9 +110,11 @@ body {
     
 	background:#949494;
 }
+/*
 .on{
 	transform:rotate(90deg);
 }
+*/
 .on li{
 	background:#ddd
 }
