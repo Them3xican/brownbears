@@ -426,12 +426,13 @@ a, .menu, .menu li {
   /* line 419, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 25%;
+    background-color: red;
   }
-  /* line 422, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 423, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
     right: 50%;
   }
-  /* line 426, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 427, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
     font-size: 90%;
   }
