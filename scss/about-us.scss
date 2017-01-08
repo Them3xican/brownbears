@@ -256,23 +256,13 @@ a, .menu, .menu li{
             width: 80%;
             right: 0;
             left: 10%;
-        }
-        #left, #right{
-            width: 50%;
-        
-            .media-links {
-                width: 40%;
-            }
-            #email {
-                margin-right: 20%;
-            }
-            h1 {
-                display: none;
-            }
+            
+        .media-links {
+            width: 40%;
         }
     }   
 }
-
+}
 
 /* Tablet Landscape */
 
@@ -313,15 +303,9 @@ a, .menu, .menu li{
             .media-links {
                 width: 10%;
                 
-                #email {
-                    right:50%;
-                }
-            }
-            h1 {
-                font-size: 90%;
             }
         }
-      }
+     }
 }
 
 
