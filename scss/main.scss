@@ -258,20 +258,18 @@ body {
         max-width: $phone-max;
         min-width: $phone-min;
         
+        .scroll {
+            display: none;
+        }
         #pic-table {
-            margin: 0 auto;
-            padding: 0;
-            width: 90%;
-            height: auto;
-            margin-top: 2%;
-            
-         #pic {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            display: block;
-            }
-         } 
+            margin-top: 25%;
+        }
+        #small-block, #big-block {
+            width: 50%;
+        }
+        #links {
+            display: none;
+        }
     }   
 }
 

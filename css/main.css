@@ -251,19 +251,20 @@ body {
     min-width: 320px;
   }
   /* line 261, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container #pic-table {
-    margin: 0 auto;
-    padding: 0;
-    width: 90%;
-    height: auto;
-    margin-top: 2%;
+  .container .scroll {
+    display: none;
   }
-  /* line 268, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container #pic-table #pic {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: block;
+  /* line 264, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container #pic-table {
+    margin-top: 25%;
+  }
+  /* line 267, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container #small-block, .container #big-block {
+    width: 50%;
+  }
+  /* line 270, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container #links {
+    display: none;
   }
 }
 
