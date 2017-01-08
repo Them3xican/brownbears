@@ -340,7 +340,7 @@ a, .menu, .menu li {
     width: 50%;
     display: none;
     background: #2B2B2B;
-    text-align: center;
+    text-align: left;
   }
   /* line 339, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav ul li {
