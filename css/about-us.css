@@ -274,7 +274,7 @@ a, .menu, .menu li {
   .container #links {
     width: 80%;
     left: 10%;
-    background-color: red;
+    background-color: green;
   }
   /* line 263, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links .media-links {
