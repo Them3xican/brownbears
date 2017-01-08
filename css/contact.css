@@ -375,6 +375,10 @@ a, .menu, .menu li {
     width: 50%;
   }
   /* line 369, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container .media-links {
+    width: 10%;
+  }
+  /* line 372, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container h1 {
     display: none;
   }
@@ -382,7 +386,7 @@ a, .menu, .menu li {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 383, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 386, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
