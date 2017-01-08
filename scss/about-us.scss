@@ -216,6 +216,7 @@ a, .menu, .menu li{
         width: 100%;
         max-width: $tablet-max;
         min-width: $tablet-min;
+        background-color: red;
           
           .menu{
 			display:block;
@@ -254,9 +255,9 @@ a, .menu, .menu li{
         
           #text {
               width: 80%;
-              left 25%;
+              left: 25%;
           }
-          
+      
           
         #links {
             width: 80%;
