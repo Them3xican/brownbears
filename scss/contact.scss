@@ -95,7 +95,8 @@ body {
 	display: none;
 	width: 50%;
 	height: 40px;
-    padding:1em; 
+    padding:1em;
+    background-color: green;
     
     
 }
@@ -247,8 +248,7 @@ a, .menu, .menu li{
       }
       
       .menu {
-          width: 50%;
-          background-color: red;
+          display: none;
       }
 }
 
