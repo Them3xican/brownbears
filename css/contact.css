@@ -421,16 +421,17 @@ a, .menu, .menu li {
   .container #links {
     width: 100%;
     left: 0;
+    top: 5%;
   }
-  /* line 418, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 419, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links {
-    width: 10%;
+    width: 25%;
   }
-  /* line 421, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 422, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
     right: 50%;
   }
-  /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 426, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
     font-size: 90%;
   }
