@@ -286,7 +286,7 @@ a, .menu, .menu li {
   }
   /* line 264, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #insta {
-    margin-right: 20%;
+    right: 20%;
   }
   /* line 267, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
