@@ -414,7 +414,8 @@ a, .menu, .menu li{
          #links {
             width: 100%;
             left: 0;
-            top: 5%;  
+            top: 0%;  
+            bottom: 10%; 
             background-color: red; 
              
              #left, #right {
@@ -422,7 +423,7 @@ a, .menu, .menu li{
              }
             
             .media-links {
-                width: 40%;
+                width:35%;
                 margin-top: 5%;
                 
             }
