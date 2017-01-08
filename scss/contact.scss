@@ -418,24 +418,16 @@ a, .menu, .menu li{
             background-color: red; 
              
              #left, #right {
-                 text-align: left;
-                 left: 5%;
+                 text-align: center;
              }
             
             .media-links {
-                width: 25%;
+                width: 40%;
                 margin-top: 5%;
                 
-                #phone {
-                    margin-left: 15%;
-                }
-                
-                #email {
-                    margin-left: 20%;
-                }
             }
             h1 {
-                display: none;
+                display: none;    
                 
             }
         }
