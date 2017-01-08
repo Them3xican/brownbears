@@ -272,8 +272,7 @@ a, .menu, .menu li {
   }
   /* line 258, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links {
-    width: 80%;
-    left: 10%;
+    width: 100%;
     background-color: green;
   }
   /* line 263, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
