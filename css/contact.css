@@ -442,6 +442,7 @@ a, .menu, .menu li {
     font-size: 50%;
     text-align: left;
     left: 5%;
+    background-color: blue;
   }
 }
 
