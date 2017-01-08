@@ -222,11 +222,19 @@ body {
     max-width: 480px;
     min-width: 320px;
   }
+  /* line 231, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container #small-block {
+    width: 100%;
+  }
+  /* line 234, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container #big-block {
+    width: 100%;
+  }
 }
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 243, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 249, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
