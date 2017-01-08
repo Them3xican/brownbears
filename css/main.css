@@ -166,6 +166,10 @@ body {
     min-width: 481px;
   }
   /* line 164, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container .scroll {
+    display: none;
+  }
+  /* line 167, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container #pic-table {
     margin: 0 auto;
     padding: 0;
@@ -174,21 +178,21 @@ body {
     height: auto;
     margin-top: 2%;
   }
-  /* line 172, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 175, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container #pic-table #pic {
     margin: 0;
     padding: 0;
     width: 100%;
     display: block;
   }
-  /* line 180, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 183, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container #links {
     margin: 0 auto;
     padding: 0;
     padding-top: 1%;
     text-align: right;
   }
-  /* line 187, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 190, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container #links .media-links {
     margin: 0 auto;
     padding: 0;
@@ -199,7 +203,7 @@ body {
 
 /* Tablet Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 207, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 210, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -211,7 +215,7 @@ body {
 
 /* Mobile Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 228, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 231, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -223,7 +227,7 @@ body {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 247, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 250, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;

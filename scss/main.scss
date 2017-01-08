@@ -161,37 +161,40 @@ body {
         max-width: $tablet-max;
         min-width: $tablet-min;
 
-          #pic-table {
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    min-width: 300px;
-    height: auto;
-    margin-top: 2%;
+          .scroll {
+            display: none;
+          }  
+        #pic-table {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            min-width: 300px;
+            height: auto;
+            margin-top: 2%;
     
-    #pic {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        display: block;
-    }
-}
+            #pic {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: block;
+            }
+        }
 
-#links {
-    margin: 0 auto;
-    padding: 0;
-    padding-top: 1%;
-    text-align: right;
-    
-    
-    .media-links {
-        margin: 0 auto;
-        padding: 0;
-        width:2%;
-        margin-left: 2%;
-        
-    }
-}
+        #links {
+            margin: 0 auto;
+            padding: 0;
+            padding-top: 1%;
+            text-align: right;
+
+
+            .media-links {
+                margin: 0 auto;
+                padding: 0;
+                width:2%;
+                margin-left: 2%;
+
+            }
+        }
 
     }
 }
