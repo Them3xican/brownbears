@@ -363,6 +363,7 @@ a, .menu, .menu li{
         #links {
             width: 80%;
             right: 0;
+            left: 10%;
             background-color: red;
         }
         #left, #right{
@@ -370,6 +371,9 @@ a, .menu, .menu li{
         }
         .media-links {
             width: 5%;
+        }
+        #email {
+            margin-left: 0;
         }
         h1 {
             display: none;
