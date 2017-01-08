@@ -269,7 +269,11 @@ a, .menu, .menu li{
         
         #links {
             width: 80%;
-            right: 0;
+            left: 25%;
+            
+            .media-links {
+                width: 10%;
+            }
         }
         
       }
