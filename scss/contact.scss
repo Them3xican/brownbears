@@ -368,15 +368,16 @@ a, .menu, .menu li{
         }
         #left, #right{
             width: 50%;
-        }
-        .media-links {
-            width: 5%;
-        }
-        #email {
-            margin-right: 20;
-        }
-        h1 {
-            display: none;
+        
+            .media-links {
+                width: 5%;
+            }
+            #email {
+                margin-right: 20;
+            }
+            h1 {
+                display: none;
+            }
         }
     }   
 }

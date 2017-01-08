@@ -378,22 +378,22 @@ a, .menu, .menu li {
     width: 50%;
   }
   /* line 372, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-  .container .media-links {
+  .container #left .media-links, .container #right .media-links {
     width: 5%;
   }
   /* line 375, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-  .container #email {
+  .container #left #email, .container #right #email {
     margin-right: 20;
   }
   /* line 378, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-  .container h1 {
+  .container #left h1, .container #right h1 {
     display: none;
   }
 }
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 392, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 393, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
