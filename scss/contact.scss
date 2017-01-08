@@ -249,14 +249,22 @@ a, .menu, .menu li{
         width: 100%;
         max-width: $tablet-max;
         min-width: 1024px;
-      }
       
-      nav {
-          width: 100%;
-          left: 0;
-      }
-      nav a {
-          margin-left: 20px;
+          nav {
+              width: 100%;
+              left: 0;
+          }
+          nav a {
+              margin-left: 20px;
+          }
+        
+        #logo-holder {
+            width: 25%;
+            
+            .logo {
+                width: 100%;
+            }
+        }
       }
 }
 
