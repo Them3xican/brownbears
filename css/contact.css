@@ -356,11 +356,15 @@ a, .menu, .menu li {
   .container nav a {
     font-size: 150%;
   }
+  /* line 351, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #logo-holder {
+    width: 50%;
+  }
 }
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 361, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 365, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
