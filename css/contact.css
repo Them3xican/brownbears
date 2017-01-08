@@ -432,7 +432,7 @@ a, .menu, .menu li {
   }
   /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav {
-    width: 100%;
+    width: 90%;
     text-align: right;
   }
   /* line 429, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
@@ -450,7 +450,7 @@ a, .menu, .menu li {
   }
   /* line 441, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links {
-    width: 100%;
+    width: 90%;
     left: 0;
     margin-top: 8%;
   }
