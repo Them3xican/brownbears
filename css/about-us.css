@@ -424,18 +424,19 @@ a, .menu, .menu li {
   .container #text {
     width: 80%;
     left: 10%;
+    padding-top: 4%;
   }
-  /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 426, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #text p {
     font-size: 100%;
   }
-  /* line 429, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 430, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links {
     width: 90%;
     left: 0;
-    margin-top: 8%;
+    margin-top: 1%;
   }
-  /* line 434, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
+  /* line 435, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links .media-links {
     width: 5%;
     margin-top: 5%;
