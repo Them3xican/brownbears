@@ -444,10 +444,7 @@ a, .menu, .menu li {
   }
   /* line 437, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
-    font-size: 50%;
-    text-align: left;
-    left: 5%;
-    background-color: blue;
+    display: none;
   }
 }
 
