@@ -258,7 +258,14 @@ body {
         max-width: $phone-max;
         min-width: $phone-min;
         
-        
+        #pic-table {
+            margin: 0 auto;
+            padding: 0;
+            width: 90%;
+            min-width: 300px;
+            height: auto;
+            margin-top: 2%;
+            }
     }   
 }
 

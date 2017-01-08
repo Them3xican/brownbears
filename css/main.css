@@ -250,6 +250,15 @@ body {
     max-width: 740px;
     min-width: 320px;
   }
+  /* line 261, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container #pic-table {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    min-width: 300px;
+    height: auto;
+    margin-top: 2%;
+  }
 }
 
 /*# sourceMappingURL=../css/main.map */
