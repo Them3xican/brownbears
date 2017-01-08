@@ -366,11 +366,19 @@ a, .menu, .menu li {
   .container #logo-holder .logo {
     width: 90%;
   }
+  /* line 363, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #links {
+    width: 80%;
+  }
+  /* line 366, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #left, .container #right {
+    width: 50%;
+  }
 }
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 373, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 380, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
