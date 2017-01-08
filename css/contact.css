@@ -279,6 +279,7 @@ a, .menu, .menu li {
   /* line 270, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links {
     width: 80%;
+    right: 0;
   }
 }
 
