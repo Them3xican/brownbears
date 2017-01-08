@@ -146,7 +146,7 @@ nav ul li {
 nav a {
   display: block;
   font-family: "Roboto", sans-serif;
-  font-size: 90%;
+  font-size: 100%;
   text-decoration: none;
   color: #EFEFEF;
 }
@@ -351,7 +351,7 @@ a, .menu, .menu li {
   }
   /* line 345, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav a {
-    font-size: 150%;
+    font-size: 100%;
   }
   /* line 349, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #logo-holder {
