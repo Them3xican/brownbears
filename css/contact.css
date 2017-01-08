@@ -370,16 +370,17 @@ a, .menu, .menu li {
   .container #links {
     width: 80%;
     right: 0;
+    background-color: red;
   }
-  /* line 367, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 368, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #left, .container #right {
     width: 50%;
   }
-  /* line 370, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 371, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container .media-links {
     width: 5%;
   }
-  /* line 373, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 374, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container h1 {
     display: none;
   }
@@ -387,7 +388,7 @@ a, .menu, .menu li {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 387, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 388, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
