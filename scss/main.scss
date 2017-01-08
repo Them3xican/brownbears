@@ -161,6 +161,10 @@ body {
         width: 100%;
         max-width: $tablet-max;
         min-width: $tablet-min;
+          
+          .scroll {
+              display: none;
+          }  
     }
 }
 

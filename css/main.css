@@ -166,11 +166,15 @@ body {
     max-width: 768px;
     min-width: 481px;
   }
+  /* line 165, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container .scroll {
+    display: none;
+  }
 }
 
 /* Tablet Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 175, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 179, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -178,18 +182,18 @@ body {
     max-width: 768px;
     min-width: 1024px;
   }
-  /* line 182, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 186, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container .logo {
     margin: 0;
     padding: 0;
     width: 100%;
     padding-top: 30%;
   }
-  /* line 189, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 193, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container .scroll {
     display: none;
   }
-  /* line 192, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 196, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container #pic-table {
     margin: 0 auto;
     padding: 0;
@@ -202,7 +206,7 @@ body {
 
 /* Mobile Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 214, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 218, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -214,7 +218,7 @@ body {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 233, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 237, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
