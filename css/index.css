@@ -182,7 +182,7 @@ body {
   .container #logo-holder {
     margin-top: 25%;
     width: 80%;
-    left: 5%;
+    left: 2%;
   }
   /* line 199, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder .logo {
@@ -201,7 +201,7 @@ body {
   }
   /* line 220, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
-    margin-top: 5%;
+    margin-top: 1%;
     width: 80%;
     left: 10%;
   }
