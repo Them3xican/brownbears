@@ -336,7 +336,7 @@ a, .menu, .menu li {
   }
   /* line 331, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav {
-    width: 80%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
