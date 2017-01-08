@@ -175,7 +175,7 @@ body {
 
 
 
-/* mobile site */
+/* Mobile Portrait */
 
 
 @media only screen 
@@ -203,6 +203,8 @@ body {
         }
     }   
 }
+
+/* Mobile Landscape */
 
 @media only screen 
   and (min-device-width: 320px) 

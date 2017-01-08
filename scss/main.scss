@@ -2,10 +2,12 @@ $BackColor: #2B2B2B;
 $HeaderColor: #191919;
 $Font: 'Roboto', sans-serif;
 $FontColor: #EFEFEF;
-$Max-width:3000px;
-$Max-height:1900px;
-$Min-width:320px;
-$Min-height:556px;
+$desktop-max: 1280px;
+$desktop-min: 1024px;
+$tablet-max: 768px;
+$tablet-min: 481px;
+$phone-max: 740px;
+$phone-min:320px;
 
 body {
     margin: 0 auto;
@@ -13,33 +15,26 @@ body {
     width: 100%;
     height: 100%;
     background-color: $BackColor ;
-    text-align: center;
 }
 
 .container {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 100%;
-    min-width: $Min-width;
-    min-height: $Min-height;
-    max-width: $Max-width;
-    max-height: $Max-height; 
-    text-align: center;
-    
-}
+    max-width: $desktop-max;
+    min-width: $desktop-min;
 
-  .table {
+}
+   
+
+.table {
     margin: 0 auto;
     padding: 0;
-    width: 90%;
-    height: auto;
-    display: block;
+    width: 100%;
+    
+      
 }
 
-.row {
-    display: block;
-}
 
 .col-1 {
             width: 8.33333333333%;
@@ -93,7 +88,7 @@ body {
         {
           clear: both;
           content:"";
-        }
+        } 
 
 #logo-holder{
     
@@ -150,4 +145,114 @@ body {
         
     }
 }
+
+/* Tablet Portait */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $tablet-max;
+        min-width: $tablet-min;
+
+          #pic-table {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    margin-top: 2%;
+    
+    #pic {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+}
+
+#links {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 1%;
+    text-align: right;
+    
+    
+    .media-links {
+        margin: 0 auto;
+        padding: 0;
+        width:2%;
+        margin-left: 2%;
+        
+    }
+}
+
+    }
+}
+
+/* Tablet Landscape */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $tablet-max;
+        min-width: $tablet-min;
+
+    }
+}
+
+
+
+/* Mobile Portrait */
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 740px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 480px;
+        min-width: $phone-min;
+        
+       
+    }   
+}
+
+/* Mobile Landscape */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 740px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 480px;
+        min-width: $phone-min;
+        
+        
+    }   
+}
+
 
