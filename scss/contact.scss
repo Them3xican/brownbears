@@ -245,6 +245,10 @@ a, .menu, .menu li{
         max-width: $tablet-max;
         min-width: 1024px;
       }
+      
+      .menu {
+          width: 50%;
+      }
 }
 
 
