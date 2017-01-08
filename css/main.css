@@ -173,11 +173,19 @@ body {
   .container {
     margin: 0 auto;
     padding: 0;
-    width: 90%;
+    width: 100%;
     max-width: 768px;
     min-width: 1024px;
   }
   /* line 181, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container .logo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+  /* line 189, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container .scroll {
     display: none;
   }
@@ -185,7 +193,7 @@ body {
 
 /* Mobile Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 198, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 206, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -197,7 +205,7 @@ body {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 217, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 225, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
