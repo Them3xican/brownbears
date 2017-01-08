@@ -421,7 +421,7 @@ a, .menu, .menu li {
   .container #links {
     width: 100%;
     left: 0;
-    top: -15%;
+    margin-top: 5%;
     background-color: red;
   }
   /* line 420, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
