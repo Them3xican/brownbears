@@ -253,15 +253,16 @@ a, .menu, .menu li{
         }
            #text {
                width: 80%;
+               left: 10%
            }
         #links {
             width: 80%;
             right: 0;
             left: 10%;
-        }
         
-        .media-links {
-                width: 40%;
+            .media-links {
+                 width: 40%;
+            }
         }
     }   
 }
