@@ -312,7 +312,7 @@ a, .menu, .menu li {
   .container #text {
     width: 80%;
     left: 10%;
-    padding: 8%;
+    padding-top: 8%;
   }
   /* line 306, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links {
@@ -321,7 +321,7 @@ a, .menu, .menu li {
   }
   /* line 310, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links .media-links {
-    width: 10%;
+    width: 5%;
   }
 }
 
