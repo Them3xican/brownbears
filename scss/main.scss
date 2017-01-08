@@ -161,7 +161,10 @@ body {
         max-width: $tablet-max;
         min-width: $tablet-min;
 
-          .scroll {
+          #logo-holder {
+              background-color: red;
+          }  
+        .scroll {
             display: none;
           }  
     }
