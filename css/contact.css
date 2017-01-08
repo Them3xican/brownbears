@@ -432,7 +432,7 @@ a, .menu, .menu li {
   /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 25%;
-    top: 0;
+    margin-top: 10%;
   }
   /* line 430, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
