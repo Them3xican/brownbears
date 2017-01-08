@@ -270,10 +270,13 @@ a, .menu, .menu li{
         #links {
             width: 80%;
             left: 0;
-            background-color: red;
             
             .media-links {
                 width: 10%;
+                
+                #email {
+                    margin-left: 25%;
+                }
             }
         }
         
