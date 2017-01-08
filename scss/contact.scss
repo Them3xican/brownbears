@@ -414,9 +414,12 @@ a, .menu, .menu li{
          #links {
             width: 100%;
             left: 0;
-            top: 5%; 
-            text-align: center; 
+            top: 5%;  
             background-color: red; 
+             
+             #left, #right {
+                 text-align: left;
+             }
             
             .media-links {
                 width: 25%;
