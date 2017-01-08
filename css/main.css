@@ -169,41 +169,11 @@ body {
   .container .scroll {
     display: none;
   }
-  /* line 167, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container #pic-table {
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    min-width: 300px;
-    height: auto;
-    margin-top: 2%;
-  }
-  /* line 175, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container #pic-table #pic {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: block;
-  }
-  /* line 183, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container #links {
-    margin: 0 auto;
-    padding: 0;
-    padding-top: 1%;
-    text-align: right;
-  }
-  /* line 190, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container #links .media-links {
-    margin: 0 auto;
-    padding: 0;
-    width: 2%;
-    margin-left: 2%;
-  }
 }
 
 /* Tablet Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 210, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 178, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -215,7 +185,7 @@ body {
 
 /* Mobile Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 231, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 199, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -227,7 +197,7 @@ body {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 250, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 218, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
