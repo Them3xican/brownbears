@@ -156,7 +156,7 @@ body {
   .container #logo-holder {
     width: 90%;
     position: relative;
-    left: 10%;
+    left: 5%;
     margin-top: 5%;
     background-color: green;
   }
