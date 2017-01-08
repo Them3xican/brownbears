@@ -369,15 +369,15 @@ a, .menu, .menu li {
   /* line 363, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links {
     width: 80%;
+    right: 0;
   }
-  /* line 366, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 367, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #left, .container #right {
     width: 50%;
   }
-  /* line 369, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 370, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container .media-links {
     width: 5%;
-    right: 0;
   }
   /* line 373, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container h1 {
