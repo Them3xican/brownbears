@@ -258,6 +258,13 @@ body {
     height: auto;
     margin-top: 2%;
   }
+  /* line 268, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  .container #pic-table #pic {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=../css/main.map */
