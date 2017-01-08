@@ -121,6 +121,7 @@ nav{
 	font:1em sans-serif;
     background-color: $BackColor;
     text-align: center;
+    text-align: right;
 }
 	
 nav ul li{
@@ -201,6 +202,8 @@ a, .menu, .menu li{
     }
 }
 
+/* Tablet Portrait */
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -214,32 +217,62 @@ a, .menu, .menu li{
         max-width: $tablet-max;
         min-width: $tablet-min;
           
-         nav {
-              width: 100%;
-              left: 0;
-          }
-          nav a {
-              margin-left: 20px;
-          }
+          .menu{
+			display:block;
+    	
+		}
+        nav{
+			width: 85%;
+			display:none;
+			background:$BackColor;
+            text-align: center;
+            margin-left: 3%;
+            padding: 0;
+            padding-bottom: 2%;
+		}
+        nav ul li{
+			display:block;
+			border-bottom:1px solid #ccc;
+            
+		}
+        nav ul li:last-child{
+            border:none
+        }
+        
+        nav a{
+            font-size: 100%;
+        }
         
         #logo-holder {
-            width: 33.3333333333%;
-            left: 3%;
+            width: 80%;
+            left: 10%;
             
             .logo {
-                width: 100%;
+                width: 90%;
             }
-        }  
+        }
+        
         #links {
-            width: 100%;
-            left: 0;
-            
-            h1 {
-                font-size: 90%;
+            width: 80%;
+            right: 0;
+            left: 10%;
+        }
+        #left, #right{
+            width: 50%;
+        
+            .media-links {
+                width: 40%;
             }
-        }  
-    }
+            #email {
+                margin-right: 20%;
+            }
+            h1 {
+                display: none;
+            }
+        }
+    }   
 }
+
 
 /* Tablet Landscape */
 
