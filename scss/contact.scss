@@ -121,13 +121,13 @@ nav{
 	padding:.2em 0;
 	font:1em sans-serif;
     background-color: $BackColor;
-    text-align: right;
+    text-align: center;
 }
 	
 nav ul li{
 	display:inline-block;
 	margin:0 .8em;
-    line-height: 3;
+    line-height: 2;
     text-align: center;
 }
 
@@ -334,10 +334,12 @@ a, .menu, .menu li{
 			background:$BackColor;
             text-align: center;
             left:-10%;
+            padding: 0;
 		}
         nav ul li{
 			display:block;
 			border-bottom:1px solid #ccc;
+            
 		}
         nav ul li:last-child{
             border:none
