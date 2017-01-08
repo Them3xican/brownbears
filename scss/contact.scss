@@ -93,7 +93,7 @@ body {
 
 .menu{
 	display: none;
-	width:50px;
+	width: 50%;
 	height: 40px;
     padding:1em; 
     
@@ -118,8 +118,6 @@ body {
 }
 
 nav{
-	padding:.2em 0;
-	font:1em sans-serif;
     background-color: $BackColor;
     text-align: right;
 }
@@ -199,7 +197,7 @@ a, .menu, .menu li{
         margin-left: 5%;
     }
     #email{
-        margin-left: 25%;
+        margin-left: 20%;
     }
 
     h1, h2{
@@ -227,6 +225,8 @@ a, .menu, .menu li{
         width: 100%;
         max-width: $tablet-max;
         min-width: $tablet-min;
+          
+          
     }
 }
 
