@@ -204,7 +204,7 @@ a, .menu, .menu li{
         margin-left: 20%;
     }
 
-    h1, h2{
+    h1{
         margin: 0 auto;
         font-family: $Font;
         text-decoration: none;
@@ -276,6 +276,9 @@ a, .menu, .menu li{
                 
                 #email {
                     margin-left: 25%;
+                }
+                h1 {
+                    font-size: 100%;
                 }
             }
         }
