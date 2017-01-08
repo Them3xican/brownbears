@@ -246,6 +246,21 @@ a, .menu, .menu li{
                 width: 100%;
             }
         }  
+        #links {
+            width: 100%;
+            left: 0;
+            
+            .media-links {
+                width: 10%;
+                
+                #email {
+                    right:50%;
+                }
+            }
+            h1 {
+                font-size: 90%;
+            }
+        }  
     }
 }
 
