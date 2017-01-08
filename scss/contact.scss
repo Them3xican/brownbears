@@ -93,10 +93,10 @@ body {
 
 .menu{
 	display: none;
-	width: 50%;
+	width: 50px;
 	height: 40px;
     padding:1em;
-    background-color: green;
+
     
     
 }
@@ -121,6 +121,7 @@ body {
 nav{
     background-color: $BackColor;
     text-align: right;
+    width: 50%;
 }
 	
 nav ul li{
@@ -245,10 +246,6 @@ a, .menu, .menu li{
         width: 100%;
         max-width: $tablet-max;
         min-width: 1024px;
-      }
-      
-      .menu {
-          display: none;
       }
 }
 
