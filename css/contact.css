@@ -421,20 +421,19 @@ a, .menu, .menu li {
   .container #links {
     width: 100%;
     left: 0;
-    top: 0%;
-    bottom: 10%;
+    top: -15%;
     background-color: red;
   }
-  /* line 421, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 420, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links #left, .container #links #right {
     text-align: center;
   }
-  /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 424, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 35%;
     margin-top: 5%;
   }
-  /* line 430, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 429, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
     display: none;
   }
