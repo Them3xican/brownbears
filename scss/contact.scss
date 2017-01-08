@@ -230,7 +230,22 @@ a, .menu, .menu li{
         max-width: $tablet-max;
         min-width: $tablet-min;
           
-          
+         nav {
+              width: 100%;
+              left: 0;
+          }
+          nav a {
+              margin-left: 20px;
+          }
+        
+        #logo-holder {
+            width: 33.3333333333%;
+            left: 3%;
+            
+            .logo {
+                width: 100%;
+            }
+        }  
     }
 }
 
@@ -269,7 +284,6 @@ a, .menu, .menu li{
         #links {
             width: 100%;
             left: 0;
-            background-color: red;
             
             .media-links {
                 width: 10%;
