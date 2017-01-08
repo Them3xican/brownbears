@@ -251,12 +251,18 @@ a, .menu, .menu li{
                 width: 90%;
             }
         }
-        
            #text {
                width: 80%;
-               left: 10%;
-               background-color: red;
-           }   
+           }
+        #links {
+            width: 80%;
+            right: 0;
+            left: 10%;
+        }
+        
+        .media-links {
+                width: 40%;
+        }
     }   
 }
 
