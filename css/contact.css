@@ -340,27 +340,26 @@ a, .menu, .menu li {
   }
   /* line 337, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav {
-    width: 50%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
-    text-align: left;
-    right: 50%;
+    text-align: center;
   }
-  /* line 344, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 343, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav ul li {
     display: block;
     margin: 0.6em 0.8em !important;
     border-bottom: 2px solid #ccc;
   }
-  /* line 349, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 348, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav ul li:last-child {
     border: none;
   }
-  /* line 353, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 352, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav a {
     font-size: 150%;
   }
-  /* line 357, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 356, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #logo-holder {
     width: 50%;
     left: 25%;
@@ -369,7 +368,7 @@ a, .menu, .menu li {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 372, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 371, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
