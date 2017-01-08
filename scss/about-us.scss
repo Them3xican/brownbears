@@ -217,8 +217,7 @@ a, .menu, .menu li{
         max-width: $tablet-max;
         min-width: $tablet-min;
         
-          
-          .menu{
+       .menu{
 			display:block;
     	
 		}
@@ -251,26 +250,25 @@ a, .menu, .menu li{
             .logo {
                 width: 90%;
             }
+            
+            #text {
+                width: 80%;
+                left: 10%;
+            }
         }
         
-          #text {
-              width: 80%;
-              left: 15%;
-          }
-      
-          
         #links {
             width: 80%;
             right: 0;
             left: 10%;
-            background-color: red;
-            
-        .media-links {
-            width: 10%;
+        }
+        
+            .media-links {
+                width: 40%;
+            }
         }
     }   
-}
-}
+
 
 /* Tablet Landscape */
 
