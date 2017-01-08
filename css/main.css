@@ -235,8 +235,8 @@ body {
     width: 50%;
   }
   /* line 240, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container .media-links {
-    width: 15%;
+  .container #links {
+    display: none;
   }
 }
 
