@@ -399,7 +399,7 @@ a, .menu, .menu li{
         min-width: $phone-min;
         
           nav {
-              width: 100%;
+              width: 90%;
               left: 0;
           }
           nav a {
@@ -414,22 +414,18 @@ a, .menu, .menu li{
                 width: 100%;
             }
         }
+        #text {
+            width: 80%;
+            left: 10%;
+        }
          #links {
-            width: 100%;
+            width: 90%;
             left: 0;
             margin-top: 8%;
-             
-             #left, #right {
-                 text-align: center;
-             }
             
             .media-links {
-                width:35%;
+                width:5%;
                 margin-top: 5%;
-                
-            }
-            h1 {
-                display: none;    
                 
             }
         }
