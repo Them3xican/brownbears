@@ -228,11 +228,8 @@ body {
         max-width: 480px;
         min-width: $phone-min;
         
-        #small-block {
-            width: 100%;
-        }
-        #big-block {
-            width:100%;
+        #small-block, #big-block {
+            width: 50%;
         }
        
     }   
