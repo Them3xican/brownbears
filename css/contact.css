@@ -440,7 +440,7 @@ a, .menu, .menu li {
   }
   /* line 433, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
-    right: 50%;
+    margin-left: 20%;
   }
   /* line 437, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
