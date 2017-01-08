@@ -165,19 +165,11 @@ body {
     max-width: 768px;
     min-width: 481px;
   }
-  /* line 164, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container #logo-holder {
-    background-color: red;
-  }
-  /* line 167, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
-  .container .scroll {
-    display: none;
-  }
 }
 
 /* Tablet Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 181, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 174, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -189,7 +181,7 @@ body {
 
 /* Mobile Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 202, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 195, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -201,7 +193,7 @@ body {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 221, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
+  /* line 214, C:/Users/georg/Desktop/brownbear/brownbears/scss/main.scss */
   .container {
     margin: 0 auto;
     padding: 0;
