@@ -352,8 +352,12 @@ a, .menu, .menu li{
         }
         
         #logo-holder {
-            width: 50%;
-            left: 25%;
+            width: 80%;
+            left: 10%;
+            
+            .logo {
+                width: 90%;
+            }
         }
     }   
 }
