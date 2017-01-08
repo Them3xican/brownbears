@@ -286,10 +286,6 @@ a, .menu, .menu li {
   .container #links .media-links {
     width: 10%;
   }
-  /* line 278, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
-  .container #links .media-links #email {
-    margin-left: 15%;
-  }
   /* line 282, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
     font-size: 90%;
