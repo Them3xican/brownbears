@@ -118,7 +118,6 @@ body {
 }
 
 nav{
-	padding:.2em 0;
 	font:1em sans-serif;
     background-color: $BackColor;
     text-align: center;
@@ -126,7 +125,6 @@ nav{
 	
 nav ul li{
 	display:inline-block;
-	margin:0 .8em;
     line-height: 2;
     text-align: center;
 }
@@ -136,10 +134,9 @@ nav ul li{
 nav a{
 	display:block;
 	font-family: $Font;
-    font-size: 100%;
+    font-size: 90%;
     text-decoration: none;
     color: $FontColor;
-    margin-left: 2%;
 }
 nav a:hover{
 	color:#999
