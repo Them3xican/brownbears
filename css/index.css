@@ -156,9 +156,10 @@ body {
   .container #logo-holder {
     width: 90%;
     position: relative;
+    left: 5%;
     margin-top: 5%;
   }
-  /* line 166, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 167, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container .logo {
     margin: 0;
     padding: 0;
@@ -169,7 +170,7 @@ body {
 
 /* mobile site */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 186, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 187, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -177,19 +178,19 @@ body {
     max-width: 480px;
     min-width: 320px;
   }
-  /* line 193, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 194, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 20%;
     width: 80%;
   }
-  /* line 197, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 198, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder .logo {
     width: 100%;
   }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 211, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 212, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -197,12 +198,12 @@ body {
     max-width: 480px;
     min-width: 320px;
   }
-  /* line 218, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 219, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder {
     margin-top: 5%;
     width: 80%;
   }
-  /* line 222, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
+  /* line 223, C:/Users/georg/Desktop/brownbear/brownbears/scss/index.scss */
   .container #logo-holder .logo {
     width: 100%;
   }
