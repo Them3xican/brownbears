@@ -337,7 +337,7 @@ a, .menu, .menu li {
     display: none;
     background: #2B2B2B;
     text-align: center;
-    right: 0;
+    margin-left: 5%;
     padding: 0;
   }
   /* line 334, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
