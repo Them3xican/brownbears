@@ -433,13 +433,16 @@ a, .menu, .menu li {
   .container #links .media-links {
     width: 25%;
     margin-top: 5%;
+  }
+  /* line 429, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #links .media-links #phone {
     margin-left: 15%;
   }
-  /* line 431, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 433, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
     right: 50%;
   }
-  /* line 435, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 437, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
     font-size: 50%;
     text-align: left;
