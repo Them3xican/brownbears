@@ -427,18 +427,21 @@ a, .menu, .menu li {
   /* line 420, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links #left, .container #links #right {
     text-align: left;
+    left: 5%;
   }
-  /* line 424, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 25%;
   }
-  /* line 428, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 429, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links .media-links #email {
     right: 50%;
   }
-  /* line 432, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  /* line 433, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container #links h1 {
     font-size: 50%;
+    text-align: left;
+    left: 5%;
   }
 }
 
