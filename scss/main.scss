@@ -228,10 +228,18 @@ body {
         max-width: 480px;
         min-width: $phone-min;
         
+        .scroll {
+            display: none;
+        }
+        #pic-table {
+            margin-top: 25%;
+        }
         #small-block, #big-block {
             width: 50%;
         }
-       
+        .media-links {
+            width: 5%;
+        }
     }   
 }
 
