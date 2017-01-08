@@ -399,6 +399,41 @@ a, .menu, .menu li {
     max-width: 740px;
     min-width: 320px;
   }
+  /* line 398, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container nav {
+    width: 100%;
+    left: 0;
+  }
+  /* line 402, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container nav a {
+    margin-left: 20px;
+  }
+  /* line 406, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #logo-holder {
+    width: 33.3333333333%;
+    left: 3%;
+  }
+  /* line 410, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #logo-holder .logo {
+    width: 100%;
+  }
+  /* line 414, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #links {
+    width: 100%;
+    left: 0;
+  }
+  /* line 418, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #links .media-links {
+    width: 10%;
+  }
+  /* line 421, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #links .media-links #email {
+    right: 50%;
+  }
+  /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
+  .container #links h1 {
+    font-size: 90%;
+  }
 }
 
 /*# sourceMappingURL=../css/contact.map */
