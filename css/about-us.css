@@ -272,12 +272,12 @@ a, .menu, .menu li {
   }
   /* line 258, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links {
-    width: 100%;
+    width: 90%;
     background-color: green;
   }
   /* line 263, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container #links .media-links {
-    width: 8%;
+    width: 5%;
   }
 }
 
