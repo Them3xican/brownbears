@@ -118,6 +118,8 @@ body {
     
 }
 
+/* Tablet Portait */
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -141,7 +143,8 @@ body {
     }
 }
 
-/* Landscape */
+/* Tablet Landscape */
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -161,14 +164,12 @@ body {
            position: relative;
             left: 10%;
            margin-top: 15%;
+           background-color: green;
         }
     }
 }
 
-@media only screen and  (max-width: 1024px) {
-    
-    
-}
+
 
 /* mobile site */
 
