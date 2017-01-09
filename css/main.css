@@ -224,12 +224,12 @@ body {
   }
   /* line 231, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   .container #logo-holder {
-    width: 33.3333333333%;
-    left: 33%;
+    width: 80%;
+    left: 10%;
   }
   /* line 235, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   .container #logo-holder .logo {
-    width: 100%;
+    width: 90%;
   }
   /* line 238, C:/Users/George Houghton/Desktop/brownbears/scss/main.scss */
   .container #logo-holder .scroll {
