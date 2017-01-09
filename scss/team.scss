@@ -481,7 +481,28 @@ a, .menu, .menu li{
                 width: 100%;
             }
         }
-        
+        #img{
+            
+            padding-top: 20%;
+            left: 5%;
+        }
+        #txt {
+            
+             h1 {
+                font-size: 150%;
+            }
+            
+            h2{
+                font-size: 130%;
+                padding: 2%;
+            }
+            
+            p{
+                font-size: 100%;
+                line-height: 1.5;
+            }
+        }
+
          #links {
             width: 90%;
             left: 0;
