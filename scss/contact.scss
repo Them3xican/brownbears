@@ -421,13 +421,32 @@ a, .menu, .menu li{
         max-width: $phone-max;
         min-width: $phone-min;
         
-          nav {
-              width: 90%;
-              text-align: right;
-          }
-          nav a {
-              margin-left: 20px;
-          }
+        .menu{
+			display:block;
+    	
+		}
+        nav{
+			width: 85%;
+			display:none;
+			background:$BackColor;
+            text-align: center;
+            margin-left: 3%;
+            padding: 0;
+            padding-bottom: 2%;
+		}
+        nav ul li{
+			display:block;
+			border-bottom:1px solid #ccc;
+            text-align: center;
+            
+		}
+        nav ul li:last-child{
+            border:none
+        }
+        
+        nav a{
+            font-size: 100%;
+        }
         
         #logo-holder {
             width: 33.3333333333%;

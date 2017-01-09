@@ -430,39 +430,58 @@ a, .menu, .menu li {
     min-width: 320px;
   }
   /* line 424, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
-  .container nav {
-    width: 90%;
-    text-align: right;
+  .container .menu {
+    display: block;
   }
   /* line 428, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
-  .container nav a {
-    margin-left: 20px;
+  .container nav {
+    width: 85%;
+    display: none;
+    background: #2B2B2B;
+    text-align: center;
+    margin-left: 3%;
+    padding: 0;
+    padding-bottom: 2%;
   }
-  /* line 432, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 437, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  .container nav ul li {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  /* line 443, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  .container nav ul li:last-child {
+    border: none;
+  }
+  /* line 447, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  .container nav a {
+    font-size: 100%;
+  }
+  /* line 451, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder {
     width: 33.3333333333%;
     left: 34%;
   }
-  /* line 436, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 455, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder .logo {
     width: 100%;
   }
-  /* line 440, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 459, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links {
     width: 90%;
     left: 0;
     margin-top: 8%;
   }
-  /* line 445, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 464, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links #left, .container #links #right {
     text-align: center;
   }
-  /* line 449, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 468, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 35%;
     margin-top: 5%;
   }
-  /* line 454, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 473, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links h1 {
     display: none;
   }

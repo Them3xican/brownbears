@@ -460,49 +460,68 @@ a, .menu, .menu li {
     min-width: 320px;
   }
   /* line 467, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
-  .container nav {
-    width: 90%;
-    left: 0;
+  .container .menu {
+    display: block;
   }
   /* line 471, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
-  .container nav a {
-    margin-left: 20px;
+  .container nav {
+    width: 85%;
+    display: none;
+    background: #2B2B2B;
+    text-align: center;
+    margin-left: 3%;
+    padding: 0;
+    padding-bottom: 2%;
   }
-  /* line 475, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 480, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  .container nav ul li {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  /* line 486, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  .container nav ul li:last-child {
+    border: none;
+  }
+  /* line 490, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  .container nav a {
+    font-size: 100%;
+  }
+  /* line 494, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #logo-holder {
     width: 33.3333333333%;
     left: 34%;
   }
-  /* line 479, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 498, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #logo-holder .logo {
     width: 100%;
   }
-  /* line 483, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 502, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #img {
     padding-top: 20%;
     right: 15%;
   }
-  /* line 490, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 509, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #txt h1 {
     font-size: 150%;
   }
-  /* line 494, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 513, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #txt h2 {
     font-size: 130%;
     padding: 2%;
   }
-  /* line 499, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 518, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #txt p {
     font-size: 100%;
     line-height: 1.5;
   }
-  /* line 505, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 524, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #links {
     width: 90%;
     left: 0;
     margin-top: 1%;
   }
-  /* line 510, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
+  /* line 529, C:/Users/George Houghton/Desktop/brownbears/scss/team.scss */
   .container #links .media-links {
     width: 5%;
     margin-top: 5%;
