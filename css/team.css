@@ -300,11 +300,11 @@ a, .menu, .menu li {
   /* line 288, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #img {
     width: 50%;
-    left: 5%;
+    left: 0%;
   }
   /* line 292, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt {
-    left: 10%;
+    left: 5%;
   }
   /* line 296, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #links {
