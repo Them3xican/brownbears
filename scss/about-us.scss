@@ -118,10 +118,8 @@ body {
 }
 
 nav{
-	font:1em sans-serif;
     background-color: $BackColor;
     text-align: center;
-    text-align: right;
 }
 	
 nav ul li{
@@ -350,7 +348,7 @@ a, .menu, .menu li{
         nav ul li{
 			display:block;
 			border-bottom:1px solid #ccc;
-            text-align: center;
+            
             
 		}
         nav ul li:last-child{
