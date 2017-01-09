@@ -148,20 +148,19 @@ nav a {
   font-size: 100%;
   text-decoration: none;
   color: #EFEFEF;
-  margin-left: 20%;
 }
 
-/* line 141, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 140, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 nav a:hover {
   color: #999;
 }
 
-/* line 144, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 143, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 a, .menu, .menu li {
   transition: all 0.3s ease-out;
 }
 
-/* line 150, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 149, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #logo-holder {
   margin: 0 auto;
   padding: 0;
@@ -170,14 +169,14 @@ a, .menu, .menu li {
   left: 0%;
 }
 
-/* line 158, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 157, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #logo-holder .logo {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-/* line 165, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 164, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #links {
   margin: 0;
   padding: 0;
@@ -187,7 +186,7 @@ a, .menu, .menu li {
   right: 15%;
 }
 
-/* line 173, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 172, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #links .media-links {
   margin: 0 auto;
   width: 25%;
@@ -196,7 +195,7 @@ a, .menu, .menu li {
   margin-left: 5%;
 }
 
-/* line 182, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 181, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #links #inner {
   margin: 0 auto;
   padding: 0;
@@ -205,22 +204,22 @@ a, .menu, .menu li {
   top: 10%;
 }
 
-/* line 191, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 190, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #links #insta {
   margin-left: 5%;
 }
 
-/* line 194, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 193, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #links #phone {
   margin-left: 5%;
 }
 
-/* line 197, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 196, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #links #email {
   margin-left: 49%;
 }
 
-/* line 201, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+/* line 200, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
 #links h1 {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
@@ -233,7 +232,7 @@ a, .menu, .menu li {
 
 /* Tablet Portait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 220, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 219, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -241,11 +240,11 @@ a, .menu, .menu li {
     max-width: 768px;
     min-width: 481px;
   }
-  /* line 227, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 226, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container .menu {
     display: block;
   }
-  /* line 231, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 230, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav {
     width: 85%;
     display: none;
@@ -255,47 +254,47 @@ a, .menu, .menu li {
     padding: 0;
     padding-bottom: 2%;
   }
-  /* line 240, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 239, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav ul li {
     display: block;
     border-bottom: 1px solid #ccc;
   }
-  /* line 245, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 244, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav ul li:last-child {
     border: none;
   }
-  /* line 249, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 248, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav a {
     font-size: 150%;
   }
-  /* line 253, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 252, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder {
     width: 80%;
     left: 10%;
   }
-  /* line 257, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 256, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder .logo {
     width: 90%;
   }
-  /* line 262, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 261, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links {
     width: 80%;
     right: 0;
     left: 10%;
   }
-  /* line 267, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 266, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left, .container #right {
     width: 50%;
   }
-  /* line 270, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 269, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left .media-links, .container #right .media-links {
     width: 40%;
   }
-  /* line 273, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 272, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left #email, .container #right #email {
     margin-right: 20%;
   }
-  /* line 276, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 275, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left h1, .container #right h1 {
     display: none;
   }
@@ -303,7 +302,7 @@ a, .menu, .menu li {
 
 /* Tablet Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 291, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 290, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -311,39 +310,39 @@ a, .menu, .menu li {
     max-width: 768px;
     min-width: 1024px;
   }
-  /* line 298, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 297, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav {
     width: 90%;
     text-align: right;
   }
-  /* line 303, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 302, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav a {
     margin-left: 20px;
   }
-  /* line 307, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 306, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder {
     width: 33.3333333333%;
     left: 3%;
   }
-  /* line 311, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 310, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder .logo {
     width: 100%;
   }
-  /* line 316, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 315, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links {
     width: 90%;
     left: 0;
   }
-  /* line 320, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 319, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 35%;
     margin-top: 5%;
   }
-  /* line 324, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 323, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links .media-links #email {
     right: 50%;
   }
-  /* line 328, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 327, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links h1 {
     font-size: 90%;
   }
@@ -351,7 +350,7 @@ a, .menu, .menu li {
 
 /* Mobile Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 346, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 345, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -359,11 +358,11 @@ a, .menu, .menu li {
     max-width: 480px;
     min-width: 320px;
   }
-  /* line 353, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 352, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container .menu {
     display: block;
   }
-  /* line 357, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 356, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav {
     width: 85%;
     display: none;
@@ -373,48 +372,48 @@ a, .menu, .menu li {
     padding: 0;
     padding-bottom: 2%;
   }
-  /* line 366, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 365, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav ul li {
     display: block;
     border-bottom: 1px solid #ccc;
     text-align: center;
   }
-  /* line 372, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 371, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav ul li:last-child {
     border: none;
   }
-  /* line 376, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 375, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav a {
     font-size: 100%;
   }
-  /* line 380, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 379, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder {
     width: 80%;
     left: 10%;
   }
-  /* line 384, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 383, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder .logo {
     width: 90%;
   }
-  /* line 389, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 388, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links {
     width: 80%;
     right: 0;
     left: 10%;
   }
-  /* line 394, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 393, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left, .container #right {
     width: 50%;
   }
-  /* line 397, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 396, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left .media-links, .container #right .media-links {
     width: 40%;
   }
-  /* line 400, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 399, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left #email, .container #right #email {
     margin-left: 0%;
   }
-  /* line 403, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 402, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left h1, .container #right h1 {
     display: none;
   }
@@ -422,7 +421,7 @@ a, .menu, .menu li {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 418, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 417, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -430,40 +429,40 @@ a, .menu, .menu li {
     max-width: 740px;
     min-width: 320px;
   }
-  /* line 425, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 424, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav {
     width: 90%;
     text-align: right;
   }
-  /* line 429, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 428, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container nav a {
     margin-left: 20px;
   }
-  /* line 433, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 432, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder {
     width: 33.3333333333%;
     left: 34%;
   }
-  /* line 437, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 436, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #logo-holder .logo {
     width: 100%;
   }
-  /* line 441, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 440, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links {
     width: 90%;
     left: 0;
     margin-top: 8%;
   }
-  /* line 446, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 445, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links #left, .container #links #right {
     text-align: center;
   }
-  /* line 450, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 449, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links .media-links {
     width: 35%;
     margin-top: 5%;
   }
-  /* line 455, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 454, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links h1 {
     display: none;
   }
