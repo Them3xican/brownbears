@@ -20,7 +20,7 @@ body {
 .container {
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 90%;
     max-width: 1920px;
     min-width: 1024px;
     text-align: center;
@@ -138,6 +138,7 @@ nav a{
     font-size: 100%;
     text-decoration: none;
     color: $FontColor;
+    margin-left: 20%;
 }
 nav a:hover{
 	color:#999
