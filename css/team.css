@@ -416,34 +416,35 @@ a, .menu, .menu li {
   /* line 417, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #img {
     width: 60%;
-    left: 15%;
+    left: 10%;
   }
   /* line 421, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt {
     width: 60%;
     left: 20%;
+    padding-top: 10%;
   }
-  /* line 425, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 426, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt h1 {
     font-size: 150%;
   }
-  /* line 429, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 430, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt h2 {
     font-size: 130%;
     padding: 2%;
   }
-  /* line 434, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 435, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt p {
     font-size: 100%;
     line-height: 1.5;
   }
-  /* line 440, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 441, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #links {
     width: 90%;
     right: 0;
     left: 10%;
   }
-  /* line 445, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 446, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #links .media-links {
     width: 10%;
   }
@@ -451,7 +452,7 @@ a, .menu, .menu li {
 
 /* Mobile Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 460, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 461, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -459,31 +460,31 @@ a, .menu, .menu li {
     max-width: 740px;
     min-width: 320px;
   }
-  /* line 467, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 468, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container nav {
     width: 90%;
     left: 0;
   }
-  /* line 471, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 472, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container nav a {
     margin-left: 20px;
   }
-  /* line 475, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 476, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #logo-holder {
     width: 33.3333333333%;
     left: 34%;
   }
-  /* line 479, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 480, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #logo-holder .logo {
     width: 100%;
   }
-  /* line 484, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 485, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #links {
     width: 90%;
     left: 0;
     margin-top: 1%;
   }
-  /* line 489, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
+  /* line 490, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #links .media-links {
     width: 5%;
     margin-top: 5%;
