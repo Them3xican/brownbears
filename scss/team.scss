@@ -416,11 +416,25 @@ a, .menu, .menu li{
         
         #img {
             width: 60%;
-            left: 20%
+            left: 15%
         }
         #txt {
             width: 60%;
             left: 20%;
+            
+            h1 {
+                font-size: 150%;
+            }
+            
+            h2{
+                font-size: 130%;
+                padding: 2%;
+            }
+            
+            p{
+                font-size: 100%;
+                line-height: 1.5;
+            }
         }
        
         #links {
