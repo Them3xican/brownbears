@@ -316,13 +316,31 @@ a, .menu, .menu li{
         max-width: $tablet-max;
         min-width: 1024px;
       
-          nav {
-              width: 90%;
-              left: 0;
-          }
-          nav a {
-              margin-left: 20px;
-          }
+          .menu{
+			display:block;
+    	
+		}
+        nav{
+			width: 85%;
+			display:none;
+			background:$BackColor;
+            text-align: center;
+            margin-left: 3%;
+            padding: 0;
+            padding-bottom: 2%;
+		}
+        nav ul li{
+			display:block;
+			border-bottom:1px solid #ccc;
+            
+		}
+        nav ul li:last-child{
+            border:none
+        }
+        
+        nav a{
+            font-size: 150%;
+        }
         
         #logo-holder {
             width: 33.3333333333%;
