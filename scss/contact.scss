@@ -2,10 +2,10 @@ $BackColor: #2B2B2B;
 $HeaderColor: #191919;
 $Font: 'Roboto', sans-serif;
 $FontColor: #EFEFEF;
-$desktop-max: 1280px;
-$desktop-min: 1024px;
-$tablet-max: 768px;
-$tablet-min: 481px;
+$desktop-max: 1920px;
+$desktop-min: 1025px;
+$tablet-max: 1024px;
+$tablet-min: 768px;
 $phone-max: 740px;
 $phone-min:320px;
 
@@ -292,7 +292,7 @@ a, .menu, .menu li{
         padding: 0;
         width: 100%;
         max-width: $tablet-max;
-        min-width: 1024px;
+        min-width: $tablet-min;
       
           .menu{
 			display:block;

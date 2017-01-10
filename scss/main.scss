@@ -3,9 +3,9 @@ $HeaderColor: #191919;
 $Font: 'Roboto', sans-serif;
 $FontColor: #EFEFEF;
 $desktop-max: 1920px;
-$desktop-min: 1024px;
-$tablet-max: 768px;
-$tablet-min: 481px;
+$desktop-min: 1025px;
+$tablet-max: 1024px;
+$tablet-min: 768px;
 $phone-max: 740px;
 $phone-min:320px;
 
@@ -183,11 +183,11 @@ body {
   and (-webkit-min-device-pixel-ratio: 1) {
 
     .container {
-        margin: 0 auto;
+       margin: 0 auto;
         padding: 0;
         width: 100%;
         max-width: $tablet-max;
-        min-width: 1024px;
+        min-width: $tablet-min;
     
         .logo {
             margin: 0;
