@@ -357,7 +357,7 @@ a, .menu, .menu li {
   }
   /* line 344, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links .media-links #email {
-    right: 0;
+    margin-left: 25%;
   }
   /* line 348, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links h1 {
@@ -430,7 +430,7 @@ a, .menu, .menu li {
   }
   /* line 422, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left .media-links #email, .container #right .media-links #email {
-    margin-right: 49%;
+    margin-left: -49%;
   }
   /* line 427, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left h1, .container #right h1 {
