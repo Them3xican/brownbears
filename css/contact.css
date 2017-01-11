@@ -496,7 +496,11 @@ a, .menu, .menu li {
     width: 35%;
     margin-top: 5%;
   }
-  /* line 490, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  /* line 489, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
+  .container #links .media-links .email {
+    margin-left: 5%;
+  }
+  /* line 493, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #links h1 {
     display: none;
   }
