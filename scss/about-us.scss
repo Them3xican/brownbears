@@ -91,6 +91,8 @@ body {
           content:"";
         } 
 
+
+
 .menu{
 	display: none;
 	width:50px;
@@ -119,7 +121,9 @@ body {
 
 nav{
     background-color: $BackColor;
-    text-align: center;
+    text-align:right;
+    
+    
 }
 	
 nav ul li{
@@ -136,6 +140,7 @@ nav a{
     font-size: 100%;
     text-decoration: none;
     color: $FontColor;
+    margin-left: 15%;
 }
 nav a:hover{
 	color:#999
