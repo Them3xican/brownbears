@@ -316,8 +316,8 @@ a, .menu, .menu li {
   }
   /* line 310, C:/Users/George Houghton/Desktop/brownbears/scss/about-us.scss */
   .container #logo-holder {
-    width: 33.3333333333%;
-    left: 33%;
+    width: 50%;
+    left: 25%;
   }
   /* line 314, C:/Users/George Houghton/Desktop/brownbears/scss/about-us.scss */
   .container #logo-holder .logo {
