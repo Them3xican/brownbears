@@ -271,10 +271,12 @@ a, .menu, .menu li{
         
             .media-links {
                 width: 40%;
+                
+                    #email {
+                    margin-right: 40%;
+                }
             }
-            #email {
-                margin-right: 40%;
-            }
+            
             h1 {
                 display: none;
             }
@@ -415,7 +417,7 @@ a, .menu, .menu li{
                 width: 40%;
             }
             #email {
-                margin-left: 0%;
+                margin-left: 5%;
             }
             h1 {
                 display: none;
@@ -485,10 +487,7 @@ a, .menu, .menu li{
             .media-links {
                 width:35%;
                 margin-top: 5%;
-                
-                .email {
-                    margin-left: 5%;
-                }
+            
             }
             h1 {
                 display: none;    
