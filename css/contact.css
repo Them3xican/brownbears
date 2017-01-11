@@ -430,7 +430,7 @@ a, .menu, .menu li {
   }
   /* line 422, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left .media-links #email, .container #right .media-links #email {
-    margin-left: -49%;
+    margin: 0 auto;
   }
   /* line 427, C:/Users/George Houghton/Desktop/brownbears/scss/contact.scss */
   .container #left h1, .container #right h1 {
