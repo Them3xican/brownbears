@@ -353,7 +353,7 @@ a, .menu, .menu li {
   /* line 348, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #logo-holder {
     width: 50%;
-    left: 25%;
+    left: 0;
   }
   /* line 352, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #logo-holder .logo {
