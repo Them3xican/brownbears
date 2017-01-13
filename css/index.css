@@ -124,13 +124,13 @@ body {
 }
 
 /* Smaller Desktop */
-@media only screen and (min-device-width: 1280px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1280px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) {
   /* line 128, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: 1366px;
+    max-width: 1370px;
     min-width: 1280px;
   }
   /* line 135, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
