@@ -362,7 +362,7 @@ a, .menu, .menu li {
   /* line 357, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #img {
     padding-top: 20%;
-    left: 25;
+    left: 20%;
   }
   /* line 361, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt {
@@ -438,7 +438,7 @@ a, .menu, .menu li {
   /* line 439, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #img {
     width: 60%;
-    left: 10%;
+    left: 15%;
   }
   /* line 443, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt {
@@ -521,7 +521,7 @@ a, .menu, .menu li {
   /* line 524, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #img {
     padding-top: 20%;
-    right: 15%;
+    right: 0%;
   }
   /* line 529, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt {
