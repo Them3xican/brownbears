@@ -242,7 +242,7 @@ h1 {
   }
   /* line 231, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
@@ -307,7 +307,7 @@ h1 {
   }
   /* line 301, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
@@ -372,7 +372,7 @@ h1 {
   }
   /* line 372, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
@@ -440,7 +440,7 @@ h1 {
   }
   /* line 444, C:/Users/georg/Desktop/brownbear/brownbears/scss/contact.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;

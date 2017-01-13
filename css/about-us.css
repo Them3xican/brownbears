@@ -234,7 +234,7 @@ a, .menu, .menu li {
   }
   /* line 227, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
@@ -294,7 +294,7 @@ a, .menu, .menu li {
   }
   /* line 289, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
@@ -356,7 +356,7 @@ a, .menu, .menu li {
   }
   /* line 359, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
@@ -422,7 +422,7 @@ a, .menu, .menu li {
   }
   /* line 428, C:/Users/georg/Desktop/brownbear/brownbears/scss/about-us.scss */
   .container nav {
-    width: 85%;
+    width: 100%;
     display: none;
     background: #2B2B2B;
     text-align: center;
