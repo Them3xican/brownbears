@@ -337,7 +337,7 @@ a, .menu, .menu li {
     padding: 0;
     padding-bottom: 2%;
     position: relative;
-    right: 10%;
+    right: 0;
   }
   /* line 336, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container nav ul li {
