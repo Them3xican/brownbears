@@ -123,28 +123,9 @@ body {
   top: 40%;
 }
 
-/* Tablet Portait */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 129, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
-  .container {
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    max-width: 1024px;
-    min-width: 768px;
-  }
-  /* line 136, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
-  .container #logo-holder {
-    margin-top: 20%;
-    width: 80%;
-    position: relative;
-    left: 10%;
-  }
-}
-
 /* Smaller Desktop */
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 155, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
+  /* line 129, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
   .container {
     margin: 0 auto;
     padding: 0;
@@ -152,19 +133,39 @@ body {
     max-width: 1366px;
     min-width: 1280px;
   }
-  /* line 162, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
+  /* line 136, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
   .container #logo-holder {
     width: 90%;
     position: relative;
     height: 200px;
     top: 1%;
     left: 5%;
+    background-color: red;
   }
-  /* line 170, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
+  /* line 145, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
   .container #logo-holder .logo {
     margin: 0;
     padding: 0;
     width: 100%;
+  }
+}
+
+/* Tablet Portait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  /* line 163, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1024px;
+    min-width: 768px;
+  }
+  /* line 170, C:/Users/George Houghton/Desktop/brownbears/scss/index.scss */
+  .container #logo-holder {
+    margin-top: 20%;
+    width: 80%;
+    position: relative;
+    left: 10%;
   }
 }
 

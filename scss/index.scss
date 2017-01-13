@@ -118,6 +118,40 @@ body {
     
 }
 
+/* Smaller Desktop */
+
+@media only screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+      .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1366px;
+        min-width: 1280px;
+        
+        #logo-holder {
+           width: 90%;
+           position: relative;
+           height: 200px;
+           top: 1%;
+            left: 5%;
+            background-color: red;
+         
+        
+          .logo {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            }
+        }
+    }
+}
+
+
 /* Tablet Portait */
 
 @media only screen 
@@ -142,40 +176,6 @@ body {
           
     }
 }
-
-
-/* Smaller Desktop */
-
-@media only screen 
-  and (min-device-width: 1280px) 
-  and (max-device-width: 1366px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-      
-      .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 1366px;
-        min-width: 1280px;
-        
-        #logo-holder {
-           width: 90%;
-           position: relative;
-           height: 200px;
-           top: 1%;
-            left: 5%;
-         
-        
-          .logo {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            }
-        }
-    }
-}
-
 
 /* Tablet Landscape */
 
