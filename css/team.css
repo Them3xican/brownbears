@@ -353,7 +353,7 @@ a, .menu, .menu li {
   /* line 348, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #logo-holder {
     width: 50%;
-    left: 0;
+    left: 25%;
   }
   /* line 352, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #logo-holder .logo {
@@ -362,7 +362,7 @@ a, .menu, .menu li {
   /* line 357, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #img {
     padding-top: 20%;
-    left: 20%;
+    left: 0;
   }
   /* line 361, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #txt {
