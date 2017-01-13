@@ -3,7 +3,7 @@ $HeaderColor: #191919;
 $Font: 'Roboto', sans-serif;
 $FontColor: #EFEFEF;
 $desktop-max: 1920px;
-$desktop-min: 1267px;
+$desktop-min: 1025px;
 $tablet-max: 1024px;
 $tablet-min: 768px;
 $phone-max: 740px;
@@ -21,8 +21,9 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: $desktop-max;
-    min-width: $desktop-min;
+    max-width: 1920px;
+    min-width: 1024px;
+    text-align: center;
 
 }
    
@@ -118,37 +119,6 @@ body {
     
 }
 
-/* Smaller Desktop */
-
-@media screen 
-  and (min-device-width: 1280px) 
-  and (max-device-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-      
-      .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 1366px;
-        min-width: 1280px;
-        
-        #logo-holder {
-           width: 20%;
-           position: relative;
-           height: 200px;
-           top: 1%;
-            left: 5%;
-            background-color: green;
-         
-        
-          .logo {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            }
-        }
-    }
-}
 
 
 /* Tablet Portait */
