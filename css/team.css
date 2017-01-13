@@ -420,7 +420,7 @@ a, .menu, .menu li {
     padding: 0;
     padding-bottom: 2%;
     position: relative;
-    right: 2%;
+    right: 3%;
   }
   /* line 426, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container nav ul li {
@@ -523,7 +523,7 @@ a, .menu, .menu li {
   .container nav a {
     font-size: 100%;
     position: relative;
-    right: 10%;
+    right: 9%;
   }
   /* line 532, C:/Users/georg/Desktop/brownbear/brownbears/scss/team.scss */
   .container #logo-holder {
