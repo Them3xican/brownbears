@@ -485,7 +485,7 @@ a, .menu, .menu li{
         
         #logo-holder {
             width: 80%;
-            left: 15%;
+            left: 10%;
             
             .logo {
                 width: 90%;
@@ -493,10 +493,9 @@ a, .menu, .menu li{
         }
         
        #title {
+        width: 100%;
         margin: 0;
         padding: 0;
-        position: relative;
-        left: 10%;
         margin-top: 10%;
     }
      h1{
@@ -507,7 +506,7 @@ a, .menu, .menu li{
 
      p{
         font-family: $Font;
-        font-size: 130%;
+        font-size: 110%;
         color: $FontColor;
 
     }
