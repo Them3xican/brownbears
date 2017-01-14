@@ -169,7 +169,7 @@ a, .menu, .menu li{
     margin: 0;
     padding: 0;
     position: relative;
-    left: 15%;
+    left: 10%;
     margin-top: 10%;
 }
  h1{
@@ -182,7 +182,12 @@ a, .menu, .menu li{
     font-family: $Font;
     font-size: 130%;
     color: $FontColor;
-        
+    
+}
+
+.project-info p {
+    position: relative;
+    right: 4%;
 }
 #work-info {
     margin: 0;
