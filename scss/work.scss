@@ -490,6 +490,38 @@ a, .menu, .menu li{
                 width: 90%;
             }
         }
+        
+        #title{
+               width: 50%;
+               left: 30%;
+                margin-top: 5%;
+                
+                h1 {
+                    position: relative;
+                    right: 10%;
+                }
+                p {
+                    position: relative;
+                    right: 10%;
+                }
+            }
+           
+           #work-info {
+               margin-top: 5%;
+           }
+          #project-info {
+            text-align: center;
+            position: relative;
+              left: 5%;
+              
+            h1 {
+                
+            }
+            p {
+                font-size: 90%;
+            }
+        }
+        
         #links {
             width: 90%;
             right: 0;
