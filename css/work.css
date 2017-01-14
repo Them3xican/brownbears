@@ -487,7 +487,7 @@ p {
   /* line 485, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #logo-holder {
     width: 80%;
-    left: 10%;
+    left: 15%;
   }
   /* line 489, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #logo-holder .logo {
@@ -501,12 +501,12 @@ p {
   /* line 499, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title h1 {
     position: relative;
-    right: 5%;
+    right: 0%;
   }
   /* line 503, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title p {
     position: relative;
-    right: 5%;
+    right: 0%;
     font-size: 100%;
   }
   /* line 510, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
