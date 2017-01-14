@@ -619,6 +619,41 @@ a, .menu, .menu li{
                 width: 100%;
             }
         }
+        
+        #title{
+            
+                width: 100%;
+               position: relative;
+                left: 0;
+                margin-top: 5%;
+            background-color: red;
+                
+                h1 {
+                    position: relative;
+                    right: 10%;
+                }
+                p {
+                    position: relative;
+                    right: 10%;
+                }
+            }
+           
+           #work-info {
+               margin-top: 5%;
+           }
+          #project-info {
+            text-align: center;
+            position: relative;
+              left: 5%;
+              
+            h1 {
+                
+            }
+            p {
+                font-size: 100%;
+            }
+        }
+        
          #links {
             width: 90%;
             left: 5%;
