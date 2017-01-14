@@ -513,7 +513,11 @@ a, .menu, .menu li{
            
         #project {
             width: 100%;
-            margin-top: 2%;
+        
+        }
+        #project-pic {
+            position: relative;
+            left: 3%;
         }
           #project-info {
             text-align: center;
