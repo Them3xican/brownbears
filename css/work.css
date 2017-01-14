@@ -516,12 +516,12 @@ p {
   /* line 514, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #work-info #project {
     width: 100%;
+    background-color: yellow;
   }
-  /* line 517, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
+  /* line 518, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #work-info #project #project-img {
     background-color: red;
     width: 100%;
-    left: 2%;
   }
   /* line 522, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #work-info #project #project-pic {
