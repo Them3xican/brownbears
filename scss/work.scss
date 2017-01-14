@@ -509,6 +509,7 @@ a, .menu, .menu li{
            
            #work-info {
                margin-top: 5%;
+               width: 100%;
            
            
                 #project {
@@ -519,7 +520,7 @@ a, .menu, .menu li{
                         background-color: red;
                         width: 100%;
                     }
-                    #project-pic {
+                    .project-pic {
                         position: relative;
                         left: 5%;
                     }
