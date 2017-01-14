@@ -495,8 +495,8 @@ p {
   }
   /* line 494, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title {
-    width: 50%;
-    left: 30%;
+    width: 100%;
+    left: 0;
     margin-top: 5%;
   }
   /* line 499, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
