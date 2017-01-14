@@ -523,15 +523,16 @@ a, .menu, .menu li{
                     }
         
                       #project-info {
-                        text-align: center;
+                          width: 100%;
+                          text-align: center;
 
                         h1 {
                             font-size: 100%;
-                            left: 15%;
+                            left: 0%;
                         }
                         p {
                             font-size: 80%;
-                            left: 15%;
+                            left: 0%;
                         }
                     }
                 }
