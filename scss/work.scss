@@ -296,6 +296,27 @@ a, .menu, .menu li{
             }
         }
            
+            #title{
+               
+                h1 {
+                    position: relative;
+                    right: 10%;
+                }
+                p {
+                    position: relative;
+                    right: 10%;
+                }
+            }
+          #project-info {
+            text-align: center;
+            
+            h1 {
+                
+            }
+            p {
+                font-size: 90%;
+            }
+        }
         
         #links {
             width: 90%;
