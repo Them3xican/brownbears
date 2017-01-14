@@ -492,8 +492,8 @@ a, .menu, .menu li{
         }
         
         #title{
-               width: 100%;
-               left: 0;
+               width: 90%;
+               left: 5;
                 margin-top: 5%;
                 
                 h1 {
@@ -503,6 +503,7 @@ a, .menu, .menu li{
                 p {
                     position: relative;
                     right: 10%;
+                    font-size: 100%;
                 }
             }
            
