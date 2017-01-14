@@ -626,12 +626,12 @@ p {
   /* line 631, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title h1 {
     position: relative;
-    right: 10%;
+    right: 0;
   }
   /* line 635, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title p {
     position: relative;
-    right: 10%;
+    right: 0;
   }
   /* line 641, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #work-info {
