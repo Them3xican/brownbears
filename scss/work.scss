@@ -294,14 +294,21 @@ a, .menu, .menu li{
             .logo {
                 width: 90%;
             }
-            
-            #title{
-                width: 75%;
-                display: none;
-                background-color: red;
-            }
-            
         }
+            #title{
+                width: 100%;
+               
+                h1 {
+                    position: relative;
+                    right: 10%;
+                }
+                p {
+                    position: relative;
+                    right: 10%;
+                }
+        }
+            
+        
         #links {
             width: 90%;
         
