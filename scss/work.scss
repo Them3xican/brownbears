@@ -390,6 +390,37 @@ a, .menu, .menu li{
             }
         }
         
+        #title{
+               width: 50%;
+               left: 30%;
+                margin-top: 5%;
+                
+                h1 {
+                    position: relative;
+                    right: 10%;
+                }
+                p {
+                    position: relative;
+                    right: 10%;
+                }
+            }
+           
+           #work-info {
+               margin-top: 5%;
+           }
+          #project-info {
+            text-align: center;
+            position: relative;
+              left: 5%;
+              
+            h1 {
+                
+            }
+            p {
+                font-size: 100%;
+            }
+        }
+        
         #links {
             width: 90%;
             left: 0;
