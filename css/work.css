@@ -311,6 +311,10 @@ p {
   .container #logo-holder .logo {
     width: 90%;
   }
+  /* line 299, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
+  .container #title {
+    width: 50%;
+  }
   /* line 301, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title h1 {
     position: relative;
