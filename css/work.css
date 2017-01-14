@@ -403,7 +403,7 @@ p {
   /* line 393, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title {
     width: 100%;
-    left: 0;
+    left: 10%;
     position: relative;
     margin-top: 15%;
   }
