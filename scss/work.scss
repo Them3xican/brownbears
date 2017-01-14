@@ -165,6 +165,54 @@ a, .menu, .menu li{
     }
 }
 
+#title {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+}
+ h1{
+    font-family: $Font;
+    font-size: 150%;
+    color: $FontColor;
+    }
+
+ p{
+    font-family: $Font;
+    font-size: 130%;
+    color: $FontColor;
+        
+}
+#work-info {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 5%;
+    margin-top: 2%;
+
+    #project {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        position: relative;
+        left: 2%;
+        margin-top: 2%;
+        
+        #project-img {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+            
+            .project-pic {
+                width: 100%;
+                
+            }
+        }
+    }
+} 
+
 #links {
     margin: 0 auto;
     padding: 0;
