@@ -492,7 +492,65 @@ a, .menu, .menu li{
             }
         }
         
-       
+       #title {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 10%;
+        margin-top: 10%;
+    }
+     h1{
+        font-family: $Font;
+        font-size: 150%;
+        color: $FontColor;
+        }
+
+     p{
+        font-family: $Font;
+        font-size: 130%;
+        color: $FontColor;
+
+    }
+
+
+    #work-info {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 5%;
+        margin-top: 2%;
+
+        #project {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            margin-top: 2%;
+
+            #project-img {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+
+
+                .project-pic {
+                    width: 100%;
+
+                }
+            }
+            #project-info {
+                text-align: center;
+
+                h1 {
+                    width: 80%;
+                }
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    } 
+
         
         #links {
             width: 90%;
