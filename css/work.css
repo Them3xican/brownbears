@@ -403,8 +403,8 @@ p {
   /* line 393, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title {
     width: 50%;
-    left: 0%;
-    margin-top: 5%;
+    right: 20%;
+    margin-top: 15%;
   }
   /* line 398, C:/Users/georg/Desktop/brownbear/brownbears/scss/work.scss */
   .container #title h1 {
