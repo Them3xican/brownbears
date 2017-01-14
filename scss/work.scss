@@ -185,10 +185,7 @@ a, .menu, .menu li{
     
 }
 
-.project-info p {
-    position: relative;
-    right: 4%;
-}
+
 #work-info {
     margin: 0;
     padding: 0;
@@ -213,6 +210,16 @@ a, .menu, .menu li{
             .project-pic {
                 width: 100%;
                 
+            }
+        }
+        #project-info {
+            text-align: center;
+            
+            h1 {
+                width: 80%;
+            }
+            p {
+                width: 80%;
             }
         }
     }
@@ -287,6 +294,11 @@ a, .menu, .menu li{
             .logo {
                 width: 90%;
             }
+            
+            #title {
+                width: 75%;
+            }
+            
         }
         #links {
             width: 90%;
