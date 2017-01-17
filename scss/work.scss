@@ -571,7 +571,7 @@ a, .menu, .menu li{
   and (min-device-width: 320px) 
   and (max-device-width: 740px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: landscape) { 
     
     .container {
         margin: 0 auto;
