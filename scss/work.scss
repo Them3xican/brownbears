@@ -571,28 +571,30 @@ a, .menu, .menu li{
   and (min-device-width: 320px) 
   and (max-device-width: 740px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  and (orientation: portrait) { 
     
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $phone-max;
-        min-width: $phone-min;
+        max-width: 480px;
+        min-width: 320px;
         
         .menu{
 			display:block;
+        
     	
 		}
         nav{
 			width: 100%;
 			display:none;
-			background:$BackColor;
+			background:green;
             text-align: center;
             padding: 0;
             padding-bottom: 2%;
              position: relative;
-            right: 2%;
+            right: 3%;
+            
 		}
         nav ul li{
 			display:block;
@@ -607,61 +609,5 @@ a, .menu, .menu li{
         nav a{
             font-size: 100%;
              position: relative;
-            right: 9%;
-        }  
-        
-        #logo-holder {
-            width: 50%;
-            left: 25%;
-            
-            .logo {
-                width: 100%;
-            }
+            right: 50%;
         }
-        
-        #title{
-            
-                width: 100%;
-               position: relative;
-                left: 0;
-                margin-top: 5%;
-                
-                h1 {
-                    position: relative;
-                    right: 0;
-                }
-                p {
-                    position: relative;
-                    right: 0;
-                }
-            }
-           
-           #work-info {
-               margin-top: 5%;
-           }
-          #project-info {
-            text-align: center;
-            position: relative;
-              left: 5%;
-              
-            h1 {
-                
-            }
-            p {
-                font-size: 100%;
-            }
-        }
-        
-         #links {
-            width: 90%;
-            left: 5%;
-            margin-top: 1%;
-            
-            .media-links {
-                width:5%;
-                margin-top: 5%;
-                
-            }
-        }
-    }   
-}
