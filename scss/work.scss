@@ -1,6 +1,7 @@
-$BackColor: #2B2B2B;
+        $BackColor: #2B2B2B;
 $HeaderColor: #191919;
-$Font: 'Roboto', sans-serif;
+$Font: 'Roboto',
+sans-serif;
 $FontColor: #EFEFEF;
 $desktop-max: 1920px;
 $desktop-min: 1025px;
@@ -8,13 +9,12 @@ $tablet-max: 1024px;
 $tablet-min: 768px;
 $phone-max: 740px;
 $phone-min:320px;
-
 body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: $BackColor ;
+    background-color: $BackColor;
 }
 
 .container {
@@ -22,149 +22,144 @@ body {
     padding: 0;
     width: 90%;
     max-width: 1920px;
-    min-width: 1024px;
     text-align: center;
-
 }
-   
 
 .table {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    
-      
 }
-
 
 .col-1 {
-            width: 8.33333333333%;
-
-        }
-
-        .col-2 {
-            width: 16.6666666667%;
-        }
-        .col-3 {
-            width:25%;
-        }
-        .col-4 {
-            width: 33.3333333333%;
-
-        }
-        .col-5 {
-            width: 41.6666666667%;
-        }
-        .col-6 {
-            width:50%;
-        }
-        .col-7 {
-            width: 58.3333333333%;
-        }
-        .col-8 {
-            width:66.6666666666%;
-        }
-        .col-9 {
-            width:75%;
-        }
-        .col-10 {
-            width: 83.3333333333%;
-        }
-        .col-11 {
-             width:91.6666666666%; 
-        }
-        .col-12 {
-             width: 100%;
-        }
-
-        [class*="col-"] {
-          float:left; 
-        }
-
-        [class*="col-"]:last-of-type {
-        }
-
-        .row:before
-            :after
-        {
-          clear: both;
-          content:"";
-        } 
-
-.menu{
-	display: none;
-	width:50px;
-	height: 40px;
-    padding:1em; 
-    
-    
-}
-	
-.menu:hover{
-	cursor:pointer
-}
-.menu li{
-	list-style:none;
-	margin:5px 0;
-	width:50px;
-	height:8px;
-	background:#949494;
-}
-.on{
-	transform:rotate(90deg);
-}
-.on li{
-	background:#ddd
+    width: 8.33333333333%;
 }
 
-nav{
+.col-2 {
+    width: 16.6666666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333333333%;
+}
+
+.col-5 {
+    width: 41.6666666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333333333%;
+}
+
+.col-8 {
+    width: 66.6666666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333333333%;
+}
+
+.col-11 {
+    width: 91.6666666666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+[class*="col-"]:last-of-type {}
+
+.row:before:after {
+    clear: both;
+    content: "";
+}
+
+.menu {
+    display: none;
+    width: 50px;
+    height: 40px;
+    padding: 1em;
+}
+
+.menu:hover {
+    cursor: pointer
+}
+
+.menu li {
+    list-style: none;
+    margin: 5px 0;
+    width: 50px;
+    height: 8px;
+    background: #949494;
+}
+
+.on {
+    transform: rotate(90deg);
+}
+
+.on li {
+    background: #ddd
+}
+
+nav {
     background-color: $BackColor;
-    text-align:right;
-    
-    
+    text-align: right;
 }
-	
-nav ul li{
-	display:inline-block;
+
+nav ul li {
+    display: inline-block;
     line-height: 2;
     text-align: center;
 }
 
-
-  
-nav a{
-	display:block;
-	font-family: $Font;
+nav a {
+    display: block;
+    font-family: $Font;
     font-size: 100%;
     text-decoration: none;
     color: $FontColor;
     margin-left: 15%;
 }
 
-nav a:hover{
-	color:#999
-}
-a, .menu, .menu li{
-	
-	transition: all 0.3s ease-out
+nav a:hover {
+    color: #999
 }
 
-	
+a,
+.menu,
+.menu li {
+    transition: all 0.3s ease-out
+}
+
 #logo-holder {
-    
     margin: 0 auto;
     padding: 0;
     position: relative;
-    top:  25%;
-    left:0%;
-    
+    top: 25%;
+    left: 0%;
     .logo {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-
 }
+
 #title {
     margin: 0;
     padding: 0;
@@ -172,19 +167,18 @@ a, .menu, .menu li{
     left: 10%;
     margin-top: 10%;
 }
- h1{
+
+h1 {
     font-family: $Font;
     font-size: 150%;
     color: $FontColor;
-    }
+}
 
- p{
+p {
     font-family: $Font;
     font-size: 130%;
     color: $FontColor;
-    
 }
-
 
 #work-info {
     margin: 0;
@@ -192,7 +186,6 @@ a, .menu, .menu li{
     position: relative;
     left: 5%;
     margin-top: 2%;
-
     #project {
         margin: 0;
         padding: 0;
@@ -200,21 +193,16 @@ a, .menu, .menu li{
         position: relative;
         left: 2%;
         margin-top: 2%;
-        
         #project-img {
             margin: 0;
             padding: 0;
             text-align: center;
-
-            
             .project-pic {
                 width: 100%;
-                
             }
         }
         #project-info {
             text-align: center;
-            
             h1 {
                 width: 80%;
             }
@@ -223,391 +211,308 @@ a, .menu, .menu li{
             }
         }
     }
-} 
+}
 
 #links {
     margin: 0 auto;
     padding: 0;
     padding-top: 10%;
     text-align: right;
-    
-    
     .media-links {
         margin: 0 auto;
         padding: 0;
         width: 2%;
         margin-left: 2%;
-        
     }
 }
 
 
 /* Tablet Portrait */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-       .container {
+@media (max-width: 768px) {
+    .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $tablet-max;
-        min-width: $tablet-min;
-          
-         .menu{
-			display:block;
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:$BackColor;
+        max-width: 768px;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
             text-align: center;
             padding: 0;
             padding-bottom: 2%;
             position: relative;
             right: 2%;
-            
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            
-		}
-        nav ul li:last-child{
-            border:none
         }
-        
-        nav a{
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
             font-size: 140%;
-             position: relative;
+            position: relative;
             right: 8%;
         }
-        
         #logo-holder {
             width: 80%;
             left: 10%;
-            
             .logo {
                 width: 90%;
             }
         }
-           
-           
-            #title{
-               width: 50%;
-               left: 30%;
-                margin-top: 5%;
-                
-                h1 {
-                    position: relative;
-                    right: 10%;
-                }
-                p {
-                    position: relative;
-                    right: 10%;
-                }
+        #title {
+            width: 50%;
+            left: 30%;
+            margin-top: 5%;
+            h1 {
+                position: relative;
+                right: 10%;
             }
-           
-           #work-info {
-               margin-top: 5%;
-           }
-          #project-info {
+            p {
+                position: relative;
+                right: 10%;
+            }
+        }
+        #work-info {
+            margin-top: 5%;
+        }
+        #project-info {
             text-align: center;
             position: relative;
-              left: 5%;
-              
-            h1 {
-                
-            }
+            left: 5%;
+            h1 {}
             p {
                 font-size: 90%;
             }
         }
-        
         #links {
             width: 90%;
-        
             .media-links {
-                 width: 5%;
+                width: 5%;
             }
         }
-    }   
+    }
 }
+
 
 /* Tablet Landscape */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
+@media (max-width: 1024px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $tablet-max;
-        min-width: $tablet-min;
-      
-          .menu{
-			display:block;
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:$BackColor;
+        max-width: 1024px;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
             text-align: center;
             padding: 0;
             padding-bottom: 2%;
             position: relative;
             right: 2%;
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            
-		}
-        nav ul li:last-child{
-            border:none
         }
-        
-        nav a{
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
             font-size: 140%;
             position: relative;
             right: 8%;
         }
-        
         #logo-holder {
             width: 50%;
             left: 25%;
-            
             .logo {
                 width: 100%;
             }
         }
-        
-        #title{
-            
-                width: 100%;
-               position: relative;
-                left: 0;
-                margin-top: 5%;
-                
-                h1 {
-                    position: relative;
-                    right: 0%;
-                }
-                p {
-                    position: relative;
-                    right: 0%;
-                }
+        #title {
+            width: 100%;
+            position: relative;
+            left: 0;
+            margin-top: 5%;
+            h1 {
+                position: relative;
+                right: 0%;
             }
-           
-           #work-info {
-               margin-top: 5%;
-           }
-          #project-info {
+            p {
+                position: relative;
+                right: 0%;
+            }
+        }
+        #work-info {
+            margin-top: 5%;
+        }
+        #project-info {
             text-align: center;
             position: relative;
-              left: 5%;
-              
-            h1 {
-                
-            }
+            left: 5%;
+            h1 {}
             p {
                 font-size: 100%;
             }
         }
-        
         #links {
             width: 90%;
             left: 0;
-            
             .media-links {
                 width: 5%;
-                
             }
         }
-     }
+    }
 }
+
 
 /* Mobile Portrait */
 
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 740px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    
+@media (max-width: 230px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 480px;
-        min-width: $phone-min;
-        
-        .menu{
-			display:block;
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:$BackColor;
+        max-width: 320px;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
             text-align: center;
             padding: 0;
             padding-bottom: 2%;
-             position: relative;
+            position: relative;
             right: 3%;
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            text-align: center;
-            
-		}
-        nav ul li:last-child{
-            border:none
         }
-        
-        nav a{
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
             font-size: 100%;
-             position: relative;
+            position: relative;
             right: 10%;
         }
-        
         #logo-holder {
             width: 80%;
             left: 10%;
-            
             .logo {
                 width: 90%;
             }
         }
-        
-       #title {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        margin-top: 10%;
-    }
-     h1{
-        font-family: $Font;
-        font-size: 150%;
-        color: $FontColor;
-        }
-
-     p{
-        font-family: $Font;
-        font-size: 110%;
-        color: $FontColor;
-
-    }
-
-
-    #work-info {
-        margin: 0;
-        padding: 0;
-        position: relative;
-        left: 5%;
-        margin-top: 2%;
-
-        #project {
+        #title {
             width: 100%;
             margin: 0;
             padding: 0;
-            height: 100%;
+            left: 0;
+            margin-top: 10%;
+        }
+        h1 {
+            font-family: $Font;
+            font-size: 150%;
+            color: $FontColor;
+        }
+        p {
+            font-family: $Font;
+            font-size: 110%;
+            color: $FontColor;
+        }
+        #work-info {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            left: 5%;
             margin-top: 2%;
-
-            #project-img {
+            #project {
+                width: 100%;
                 margin: 0;
                 padding: 0;
-                text-align: center;
-
-
-                .project-pic {
-                    width: 100%;
-
+                height: 100%;
+                margin-top: 2%;
+                #project-img {
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    .project-pic {
+                        width: 100%;
+                    }
                 }
-            }
-            #project-info {
-                text-align: center;
-
-                h1 {
-                    width: 90%;
-                    font-size: 150%;
-                }
-                p {
-                    width: 90%;
-                    font-size: 110%;
+                #project-info {
+                    text-align: center;
+                    h1 {
+                        width: 90%;
+                        font-size: 150%;
+                    }
+                    p {
+                        width: 90%;
+                        font-size: 110%;
+                    }
                 }
             }
         }
-    } 
-
-        
         #links {
             width: 90%;
             right: 0;
             left: 10%;
-
             .media-links {
                 width: 10%;
             }
         }
-    }   
+    }
 }
+
 
 /* Mobile Landscape */
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 740px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    
+@media (max-width: 740px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 480px;
-        min-width: 320px;
-        
-        .menu{
-			display:block;
-        
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:green;
+        max-width: 740px;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: green;
             text-align: center;
             padding: 0;
             padding-bottom: 2%;
-             position: relative;
+            position: relative;
             right: 3%;
-            
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            text-align: center;
-            
-		}
-        nav ul li:last-child{
-            border:none
         }
-        
-        nav a{
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
             font-size: 100%;
-             position: relative;
+            position: relative;
             right: 50%;
         }

@@ -21,8 +21,8 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: $desktop-max;
-    min-width: $desktop-min;
+    max-width: 1920px;
+    
     text-align: center;
 }
 
@@ -143,13 +143,12 @@ body {
 
 /* Tablet Portait */
 
-@media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) and (orientation: portrait) {
+@media (max-width: 768px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $tablet-max;
-        min-width: $tablet-min;
+        max-width: 768px;
         .scroll {
             display: none;
         }
@@ -167,13 +166,12 @@ body {
 
 /* Tablet Landscape */
 
-@media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) and (orientation: landscape) {
+@media (max-width: 1024px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $tablet-max;
-        min-width: $tablet-min;
+        max-width: 1024px;
         .logo {
             margin: 0;
             padding: 0;
@@ -202,13 +200,12 @@ body {
 
 /* Mobile Portrait */
 
-@media only screen and (min-width: $phone-min) and (max-width: $phone-max) and (orientation: portrait) {
+@media (max-width: 320px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 480px;
-        min-width: $phone-min;
+        max-width: 320px;
         #logo-holder {
             width: 80%;
             left: 10%;
@@ -235,13 +232,12 @@ body {
 
 /* Mobile Landscape */
 
-@media only screen and (min-width: $phone-min) and (max-width: $phone-max) and (orientation: landscape) {
+@media (max-width: 740px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $phone-max;
-        min-width: $phone-min;
+        max-width: 740px;
         .scroll {
             display: none;
         }

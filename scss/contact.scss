@@ -22,7 +22,7 @@ body {
     padding: 0;
     width: 95%;
     max-width: 1920px;
-    min-width: 1024px;
+   
     text-align: center;
 
 }
@@ -210,18 +210,12 @@ a, .menu, .menu li{
 
 /* Tablet Portait */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-      .container {
+@media (max-width: 768px) {
+    .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $tablet-max;
-        min-width: $tablet-min;
+        max-width: 768px;
           
          .menu{
 			display:block;
@@ -284,18 +278,12 @@ a, .menu, .menu li{
 
 /* Tablet Landscape */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
+@media (max-width: 1024px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $tablet-max;
-        min-width: $tablet-min;
+        max-width: 1024px;
       
           .menu{
 			display:block;
@@ -359,18 +347,12 @@ a, .menu, .menu li{
 /* Mobile Portrait */
 
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 740px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    
+@media (max-width: 320px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 480px;
-        min-width: $phone-min;
+        max-width: 320px;
         
         .menu{
 			display:block;
@@ -435,18 +417,12 @@ a, .menu, .menu li{
 
 /* Mobile Landscape */
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 740px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    
+@media (max-width: 740px) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: $phone-max;
-        min-width: $phone-min;
+        max-width: 740px;
         
         .menu{
 			display:block;
