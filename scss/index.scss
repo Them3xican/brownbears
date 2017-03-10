@@ -117,7 +117,7 @@ body {
 
 /* Tablet Portait */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1024px)  {
     .container {
         margin: 0 auto;
         padding: 0;
@@ -136,7 +136,7 @@ body {
 
 /* Tablet Landscape */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media  (max-width: 1024px)  {
     .container {
         margin: 0 auto;
         padding: 0;
