@@ -1,6 +1,7 @@
 $BackColor: #2B2B2B;
 $HeaderColor: #191919;
-$Font: 'Roboto', sans-serif;
+$Font: 'Roboto',
+sans-serif;
 $FontColor: #EFEFEF;
 $desktop-max: 1920px;
 $desktop-min: 1025px;
@@ -8,104 +9,100 @@ $tablet-max: 1024px;
 $tablet-min: 768px;
 $phone-max: 740px;
 $phone-min:320px;
-
 body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: $BackColor ;
+    background-color: $BackColor;
 }
 
 .container {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: 1920px;
-    min-width: 1024px;
+    max-width: $desktop-max;
+    min-width: $desktop-min;
     text-align: center;
-
 }
-   
 
 .table {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    
-      
 }
 
-
 .col-1 {
-            width: 8.33333333333%;
+    width: 8.33333333333%;
+}
 
-        }
+.col-2 {
+    width: 16.6666666667%;
+}
 
-        .col-2 {
-            width: 16.6666666667%;
-        }
-        .col-3 {
-            width:25%;
-        }
-        .col-4 {
-            width: 33.3333333333%;
+.col-3 {
+    width: 25%;
+}
 
-        }
-        .col-5 {
-            width: 41.6666666667%;
-        }
-        .col-6 {
-            width:50%;
-        }
-        .col-7 {
-            width: 58.3333333333%;
-        }
-        .col-8 {
-            width:66.6666666666%;
-        }
-        .col-9 {
-            width:75%;
-        }
-        .col-10 {
-            width: 83.3333333333%;
-        }
-        .col-11 {
-             width:91.6666666666%; 
-        }
-        .col-12 {
-             width: 100%;
-        }
+.col-4 {
+    width: 33.3333333333%;
+}
 
-        [class*="col-"] {
-          float:left; 
-        }
+.col-5 {
+    width: 41.6666666667%;
+}
 
-        [class*="col-"]:last-of-type {
-        }
+.col-6 {
+    width: 50%;
+}
 
-        .row:before
-            :after
-        {
-          clear: both;
-          content:"";
-        } 
+.col-7 {
+    width: 58.3333333333%;
+}
 
-#logo-holder{
-    
+.col-8 {
+    width: 66.6666666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333333333%;
+}
+
+.col-11 {
+    width: 91.6666666666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+[class*="col-"]:last-of-type {}
+
+.row:before:after {
+    clear: both;
+    content: "";
+}
+
+#logo-holder {
     margin: 0 auto;
     padding: 0;
     position: relative;
-    top:  70%;
-    left:25%;
-    
+    top: 70%;
+    left: 25%;
     .logo {
         margin: 0;
         padding: 0;
         width: 100%;
         padding-top: 30%;
     }
-    
     .scroll {
         margin: 0;
         padding: 0;
@@ -122,7 +119,6 @@ body {
     min-width: 300px;
     height: auto;
     margin-top: 15%;
-    
     #pic {
         margin: 0;
         padding: 0;
@@ -136,75 +132,57 @@ body {
     padding: 0;
     padding-top: 1%;
     text-align: right;
-    
-    
     .media-links {
         margin: 0 auto;
         padding: 0;
-        width:2%;
+        width: 2%;
         margin-left: 2%;
-        
     }
 }
 
+
 /* Tablet Portait */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-      .container {
+@media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) and (orientation: portrait) {
+    .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
         max-width: $tablet-max;
         min-width: $tablet-min;
-          
-          .scroll {
-              display: none;
-          }  
-          #pic-table {
-              margin-top: 30%;
-          }
-          #links{
-              
-              
-              .media-links {
-              width: 6%;
-          }
-              
-          }
-          
+        .scroll {
+            display: none;
+        }
+        #pic-table {
+            margin-top: 30%;
+        }
+        #links {
+            .media-links {
+                width: 6%;
+            }
+        }
     }
 }
 
+
 /* Tablet Landscape */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
+@media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) and (orientation: landscape) {
     .container {
-       margin: 0 auto;
+        margin: 0 auto;
         padding: 0;
         width: 100%;
         max-width: $tablet-max;
         min-width: $tablet-min;
-    
         .logo {
             margin: 0;
             padding: 0;
             width: 100%;
             padding-top: 30%;
-        }  
-          
+        }
         .scroll {
-              display: none;
-          }  
+            display: none;
+        }
         #pic-table {
             margin: 0 auto;
             padding: 0;
@@ -212,37 +190,28 @@ body {
             min-width: 300px;
             height: auto;
             margin-top: 20%;
-            }
+        }
         #links {
-            .media-links  {
+            .media-links {
                 width: 5%;
             }
         }
-      }
+    }
 }
-
 
 
 /* Mobile Portrait */
 
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 740px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    
+@media only screen and (min-width: $phone-min) and (max-width: $phone-max) and (orientation: portrait) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
         max-width: 480px;
         min-width: $phone-min;
-        
         #logo-holder {
             width: 80%;
             left: 10%;
-            
             .logo {
                 width: 90%;
             }
@@ -253,43 +222,38 @@ body {
         #pic-table {
             margin-top: 25%;
         }
-        #small-block, #big-block {
+        #small-block,
+        #big-block {
             width: 50%;
         }
         #links {
             display: none;
         }
-    }   
+    }
 }
+
 
 /* Mobile Landscape */
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 740px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    
+@media only screen and (min-width: $phone-min) and (max-width: $phone-max) and (orientation: landscape) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
         max-width: $phone-max;
         min-width: $phone-min;
-        
         .scroll {
             display: none;
         }
         #pic-table {
             margin-top: 15%;
         }
-        #small-block, #big-block {
+        #small-block,
+        #big-block {
             width: 50%;
         }
         #links {
             display: none;
         }
-    }   
+    }
 }
-
-
