@@ -22,7 +22,6 @@ body {
     padding: 0;
     width: 100%;
     max-width: 1920px;
-    
     text-align: center;
 }
 
@@ -198,6 +197,31 @@ body {
 }
 
 
+/* Mobile Landscape */
+
+@media (max-width: 740px) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 740px;
+        .scroll {
+            display: none;
+        }
+        #pic-table {
+            margin-top: 15%;
+        }
+        #small-block,
+        #big-block {
+            width: 50%;
+        }
+        #links {
+            display: none;
+        }
+    }
+}
+
+
 /* Mobile Portrait */
 
 @media (max-width: 320px) {
@@ -218,31 +242,6 @@ body {
         }
         #pic-table {
             margin-top: 25%;
-        }
-        #small-block,
-        #big-block {
-            width: 50%;
-        }
-        #links {
-            display: none;
-        }
-    }
-}
-
-
-/* Mobile Landscape */
-
-@media (max-width: 740px) {
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 740px;
-        .scroll {
-            display: none;
-        }
-        #pic-table {
-            margin-top: 15%;
         }
         #small-block,
         #big-block {
