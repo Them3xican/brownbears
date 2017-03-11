@@ -166,18 +166,16 @@ a,
     position: relative;
     left: 10%;
     margin-top: 10%;
-}
-
-h1 {
-    font-family: $Font;
-    font-size: 150%;
-    color: $FontColor;
-}
-
-p {
-    font-family: $Font;
-    font-size: 130%;
-    color: $FontColor;
+    h1 {
+        font-family: $Font;
+        font-size: 150%;
+        color: $FontColor;
+    }
+    p {
+        font-family: $Font;
+        font-size: 130%;
+        color: $FontColor;
+    }
 }
 
 #work-info {
@@ -204,10 +202,20 @@ p {
         #project-info {
             text-align: center;
             h1 {
+                font-family: $Font;
+                font-size: 150%;
+                color: $FontColor;
                 width: 80%;
+                position: relative;
+                left: 10%;
             }
             p {
+                font-family: $Font;
+                font-size: 130%;
+                color: $FontColor;
                 width: 80%;
+                position: relative;
+                left: 10%;
             }
         }
     }
