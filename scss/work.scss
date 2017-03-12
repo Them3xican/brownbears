@@ -3,12 +3,11 @@ $HeaderColor: #191919;
 $Font: 'Roboto',
 sans-serif;
 $FontColor: #EFEFEF;
-$desktop-max: 1920px;
-$desktop-min: 1025px;
-$tablet-max: 1024px;
-$tablet-min: 768px;
-$phone-max: 740px;
-$phone-min:320px;
+$desktop: 1920px;
+$tablet-landscape: 1024px;
+$tablet-portrait:768px;
+$phone-landscape: 740px;
+$phone-portrait: 414px;
 body {
     margin: 0 auto;
     padding: 0;
@@ -21,7 +20,7 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 90%;
-    max-width: 1920px;
+    max-width: $desktop;
     text-align: center;
 }
 
@@ -235,89 +234,14 @@ a,
 }
 
 
-/* Tablet Portrait */
-
-@media (max-width: 768px) {
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 768px;
-        .menu {
-            display: block;
-        }
-        nav {
-            width: 100%;
-            display: none;
-            background: $BackColor;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 2%;
-            position: relative;
-            right: 2%;
-        }
-        nav ul li {
-            display: block;
-            border-bottom: 1px solid #ccc;
-        }
-        nav ul li:last-child {
-            border: none
-        }
-        nav a {
-            font-size: 140%;
-            position: relative;
-            right: 8%;
-        }
-        #logo-holder {
-            width: 80%;
-            left: 10%;
-            .logo {
-                width: 90%;
-            }
-        }
-        #title {
-            width: 50%;
-            left: 30%;
-            margin-top: 5%;
-            h1 {
-                position: relative;
-                right: 10%;
-            }
-            p {
-                position: relative;
-                right: 10%;
-            }
-        }
-        #work-info {
-            margin-top: 5%;
-        }
-        #project-info {
-            text-align: center;
-            position: relative;
-            left: 5%;
-            h1 {}
-            p {
-                font-size: 90%;
-            }
-        }
-        #links {
-            width: 90%;
-            .media-links {
-                width: 5%;
-            }
-        }
-    }
-}
-
-
 /* Tablet Landscape */
 
-@media (max-width: 1024px) {
+@media (max-width: $tablet-landscape) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 1024px;
+        max-width: $tablet-landscape;
         .menu {
             display: block;
         }
@@ -387,14 +311,127 @@ a,
 }
 
 
-/* Mobile Portrait */
+/* Tablet Portrait */
 
-@media (max-width: 230px) {
+@media (max-width: $tablet-portrait) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 320px;
+        max-width: $tablet-portrait;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
+            text-align: center;
+            padding: 0;
+            padding-bottom: 2%;
+            position: relative;
+            right: 2%;
+        }
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
+            font-size: 140%;
+            position: relative;
+            right: 8%;
+        }
+        #logo-holder {
+            width: 80%;
+            left: 10%;
+            .logo {
+                width: 90%;
+            }
+        }
+        #title {
+            width: 50%;
+            left: 30%;
+            margin-top: 5%;
+            h1 {
+                position: relative;
+                right: 10%;
+            }
+            p {
+                position: relative;
+                right: 10%;
+            }
+        }
+        #work-info {
+            margin-top: 5%;
+        }
+        #project-info {
+            text-align: center;
+            position: relative;
+            left: 5%;
+            h1 {}
+            p {
+                font-size: 90%;
+            }
+        }
+        #links {
+            width: 90%;
+            .media-links {
+                width: 5%;
+            }
+        }
+    }
+}
+
+
+/* Mobile Landscape */
+
+@media (max-width: $phone-landscape) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $phone-landscape;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: green;
+            text-align: center;
+            padding: 0;
+            padding-bottom: 2%;
+            position: relative;
+            right: 3%;
+        }
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
+            font-size: 100%;
+            position: relative;
+            right: 50%;
+        }
+    }
+}
+
+
+/* Mobile Portrait */
+
+@media (max-width: $phone-portrait) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $phone-portrait;
         .menu {
             display: block;
         }
@@ -485,44 +522,6 @@ a,
             .media-links {
                 width: 10%;
             }
-        }
-    }
-}
-
-
-/* Mobile Landscape */
-
-@media (max-width: 740px) {
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 740px;
-        .menu {
-            display: block;
-        }
-        nav {
-            width: 100%;
-            display: none;
-            background: green;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 2%;
-            position: relative;
-            right: 3%;
-        }
-        nav ul li {
-            display: block;
-            border-bottom: 1px solid #ccc;
-            text-align: center;
-        }
-        nav ul li:last-child {
-            border: none
-        }
-        nav a {
-            font-size: 100%;
-            position: relative;
-            right: 50%;
         }
     }
 }

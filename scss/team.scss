@@ -1,20 +1,19 @@
 $BackColor: #2B2B2B;
 $HeaderColor: #191919;
-$Font: 'Roboto', sans-serif;
+$Font: 'Roboto',
+sans-serif;
 $FontColor: #EFEFEF;
-$desktop-max: 1920px;
-$desktop-min: 1025px;
-$tablet-max: 1024px;
-$tablet-min: 768px;
-$phone-max: 740px;
-$phone-min:320px;
-
+$desktop: 1920px;
+$tablet-landscape: 1024px;
+$tablet-portrait:768px;
+$phone-landscape: 740px;
+$phone-portrait: 414px;
 body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: $BackColor ;
+    background-color: $BackColor;
 }
 
 .container {
@@ -22,143 +21,138 @@ body {
     padding: 0;
     width: 90%;
     max-width: 1920px;
-   
     text-align: center;
-
 }
-   
 
 .table {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    
-      
 }
-
 
 .col-1 {
-            width: 8.33333333333%;
-
-        }
-
-        .col-2 {
-            width: 16.6666666667%;
-        }
-        .col-3 {
-            width:25%;
-        }
-        .col-4 {
-            width: 33.3333333333%;
-
-        }
-        .col-5 {
-            width: 41.6666666667%;
-        }
-        .col-6 {
-            width:50%;
-        }
-        .col-7 {
-            width: 58.3333333333%;
-        }
-        .col-8 {
-            width:66.6666666666%;
-        }
-        .col-9 {
-            width:75%;
-        }
-        .col-10 {
-            width: 83.3333333333%;
-        }
-        .col-11 {
-             width:91.6666666666%; 
-        }
-        .col-12 {
-             width: 100%;
-        }
-
-        [class*="col-"] {
-          float:left; 
-        }
-
-        [class*="col-"]:last-of-type {
-        }
-
-        .row:before
-            :after
-        {
-          clear: both;
-          content:"";
-        } 
-
-.menu{
-	display: none;
-	width:50px;
-	height: 40px;
-    padding:1em; 
-    
-    
-}
-	
-.menu:hover{
-	cursor:pointer
-}
-.menu li{
-	list-style:none;
-	margin:5px 0;
-	width:50px;
-	height:8px;
-	background:#949494;
-}
-.on{
-	transform:rotate(90deg);
-}
-.on li{
-	background:#ddd
+    width: 8.33333333333%;
 }
 
-nav{
-    background-color: $BackColor;
-    text-align:right;
+.col-2 {
+    width: 16.6666666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333333333%;
+}
+
+.col-5 {
+    width: 41.6666666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333333333%;
+}
+
+.col-8 {
+    width: 66.6666666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333333333%;
+}
+
+.col-11 {
+    width: 91.6666666666%;
+}
+
+.col-12 {
     width: 100%;
-    
 }
-	
-nav ul li{
-	display:inline-block;
+
+[class*="col-"] {
+    float: left;
+}
+
+[class*="col-"]:last-of-type {}
+
+.row:before:after {
+    clear: both;
+    content: "";
+}
+
+.menu {
+    display: none;
+    width: 50px;
+    height: 40px;
+    padding: 1em;
+}
+
+.menu:hover {
+    cursor: pointer
+}
+
+.menu li {
+    list-style: none;
+    margin: 5px 0;
+    width: 50px;
+    height: 8px;
+    background: #949494;
+}
+
+.on {
+    transform: rotate(90deg);
+}
+
+.on li {
+    background: #ddd
+}
+
+nav {
+    background-color: $BackColor;
+    text-align: right;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
     line-height: 2;
     text-align: center;
 }
 
-
-  
-nav a{
-	display:block;
-	font-family: $Font;
+nav a {
+    display: block;
+    font-family: $Font;
     font-size: 100%;
     text-decoration: none;
     color: $FontColor;
     margin-left: 15%;
 }
 
-nav a:hover{
-	color:#999
-}
-a, .menu, .menu li{
-	
-	transition: all 0.3s ease-out
+nav a:hover {
+    color: #999
 }
 
-	
+a,
+.menu,
+.menu li {
+    transition: all 0.3s ease-out
+}
+
 #logo-holder {
-    
     margin: 0 auto;
     padding: 0;
     position: relative;
-    top:  25%;
-    left:0%;
-    
-    
+    top: 25%;
+    left: 0%;
     .logo {
         margin: 0;
         padding: 0;
@@ -169,13 +163,12 @@ a, .menu, .menu li{
 #img {
     margin: 0 auto;
     padding: 0;
-   position: relative;
-     padding-top: 15%;
-    right:15%;
+    position: relative;
+    padding-top: 15%;
+    right: 15%;
     text-align: right;
-    
     .image {
-        width:75%;
+        width: 75%;
     }
 }
 
@@ -186,8 +179,6 @@ a, .menu, .menu li{
     right: 15%;
     padding-top: 17%;
     text-align: center;
-    
-    
     h1 {
         margin: 0;
         padding: 0;
@@ -195,9 +186,7 @@ a, .menu, .menu li{
         color: $FontColor;
         font-weight: 200;
         font-size: 200%;
-        
     }
-    
     h2 {
         margin: 0;
         padding: 0;
@@ -208,7 +197,6 @@ a, .menu, .menu li{
         text-decoration: underline;
         margin-top: 5%;
     }
-    
     p {
         margin: 0;
         padding: 0;
@@ -221,138 +209,60 @@ a, .menu, .menu li{
     }
 }
 
-
-
-
 #links {
     margin: 0 auto;
     padding: 0;
     padding-top: 10%;
     text-align: right;
-    
-    
     .media-links {
         margin: 0 auto;
         padding: 0;
         width: 2%;
         margin-left: 2%;
-        
     }
 }
 
-/* Tablet Portrait */
-
-@media (max-width: 768px) {
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 768px;
-          
-         .menu{
-			display:block;
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:$BackColor;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 2%;
-            position: relative;
-            right: 2%;
-            
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            
-		}
-        nav ul li:last-child{
-            border:none
-        }
-        
-        nav a{
-            font-size: 140%;
-             position: relative;
-            right: 8%;
-        }
-        
-        #logo-holder {
-            width: 80%;
-            left: 10%;
-            
-            .logo {
-                width: 90%;
-            }
-        }
-        
-           #img {
-               width: 50%;
-                left: 0%;
-           }   
-           #txt{
-               left: 5%
-           }
-           
-        #links {
-            width: 90%;
-        
-            .media-links {
-                 width: 5%;
-            }
-        }
-    }   
-}
 
 /* Tablet Landscape */
 
-@media (max-width: 1024px) {
+@media (max-width: $tablet-landscape) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 1024px;
-      
-          .menu{
-			display:block;
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:$BackColor;
+        max-width: $tablet-landscape;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
             text-align: center;
             padding: 0;
             padding-bottom: 2%;
             position: relative;
             right: 2%;
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            
-		}
-        nav ul li:last-child{
-            border:none
         }
-        
-        nav a{
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
             font-size: 140%;
             position: relative;
             right: 8%;
         }
-        
         #logo-holder {
             width: 50%;
             left: 25%;
-            
             .logo {
                 width: 100%;
             }
         }
-        
         #img {
             padding-top: 20%;
             right: 21%;
@@ -361,78 +271,196 @@ a, .menu, .menu li{
             width: 60%;
             left: 20%;
             padding-top: 5%;
-        
             h2 {
                 padding: 2%;
-                
             }
-            p{
+            p {
                 line-height: 1.5;
             }
         }
         #links {
             width: 90%;
             left: 0;
-            
             .media-links {
                 width: 5%;
-                
             }
         }
-     }
+    }
 }
 
 
+/* Tablet Portrait */
 
-/* Mobile Portrait */
-
-
-@media (max-width: 320px) {
+@media (max-width: $tablet-portrait) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 320px;
-        
-        .menu{
-			display:block;
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:$BackColor;
+        max-width: $tablet-portrait;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
             text-align: center;
             padding: 0;
             padding-bottom: 2%;
-             position: relative;
-            right: 3%;
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            text-align: center;
-            
-		}
-        nav ul li:last-child{
-            border:none
+            position: relative;
+            right: 2%;
         }
-        
-        nav a{
-            font-size: 100%;
-             position: relative;
-            right: 10%;
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
         }
-        
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
+            font-size: 140%;
+            position: relative;
+            right: 8%;
+        }
         #logo-holder {
             width: 80%;
             left: 10%;
-            
             .logo {
                 width: 90%;
             }
         }
-        
+        #img {
+            width: 50%;
+            left: 0%;
+        }
+        #txt {
+            left: 5%
+        }
+        #links {
+            width: 90%;
+            .media-links {
+                width: 5%;
+            }
+        }
+    }
+}
+
+
+/* Mobile Landscape */
+
+@media (max-width: $phone-landscape) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $phone-landscape;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
+            text-align: center;
+            padding: 0;
+            padding-bottom: 2%;
+            position: relative;
+            right: 2%;
+        }
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
+            font-size: 100%;
+            position: relative;
+            right: 9%;
+        }
+        #logo-holder {
+            width: 50%;
+            left: 25%;
+            .logo {
+                width: 100%;
+            }
+        }
+        #img {
+            padding-top: 20%;
+            right: 21%;
+        }
+        #txt {
+            width: 60%;
+            left: 20%;
+            padding-top: 5%;
+            h1 {
+                font-size: 150%;
+            }
+            h2 {
+                font-size: 130%;
+                padding: 2%;
+            }
+            p {
+                font-size: 100%;
+                line-height: 1.5;
+            }
+        }
+        #links {
+            width: 90%;
+            left: 5%;
+            margin-top: 1%;
+            .media-links {
+                width: 5%;
+                margin-top: 5%;
+            }
+        }
+    }
+}
+
+
+/* Mobile Portrait */
+
+@media (max-width: $phone-portrait) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $phone-portrait;
+        .menu {
+            display: block;
+        }
+        nav {
+            width: 100%;
+            display: none;
+            background: $BackColor;
+            text-align: center;
+            padding: 0;
+            padding-bottom: 2%;
+            position: relative;
+            right: 3%;
+        }
+        nav ul li {
+            display: block;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+        }
+        nav ul li:last-child {
+            border: none
+        }
+        nav a {
+            font-size: 100%;
+            position: relative;
+            right: 10%;
+        }
+        #logo-holder {
+            width: 80%;
+            left: 10%;
+            .logo {
+                width: 90%;
+            }
+        }
         #img {
             width: 60%;
             left: 14%
@@ -441,116 +469,25 @@ a, .menu, .menu li{
             width: 60%;
             left: 20%;
             padding-top: 5%;
-            
             h1 {
                 font-size: 150%;
             }
-            
-            h2{
+            h2 {
                 font-size: 130%;
                 padding: 2%;
             }
-            
-            p{
+            p {
                 font-size: 100%;
                 line-height: 1.5;
             }
         }
-       
         #links {
             width: 90%;
             right: 0;
             left: 10%;
-
             .media-links {
                 width: 10%;
             }
         }
-    }   
+    }
 }
-
-/* Mobile Landscape */
-
-@media (max-width: 740px) {
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 740px;
-        
-        .menu{
-			display:block;
-    	
-		}
-        nav{
-			width: 100%;
-			display:none;
-			background:$BackColor;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 2%;
-             position: relative;
-            right: 2%;
-		}
-        nav ul li{
-			display:block;
-			border-bottom:1px solid #ccc;
-            text-align: center;
-            
-		}
-        nav ul li:last-child{
-            border:none
-        }
-        
-        nav a{
-            font-size: 100%;
-             position: relative;
-            right: 9%;
-        }  
-        
-        #logo-holder {
-            width: 50%;
-            left: 25%;
-            
-            .logo {
-                width: 100%;
-            }
-        }
-        #img{
-            
-            padding-top: 20%;
-            right: 21%;
-        }
-            #txt {
-            width: 60%;
-            left: 20%;
-            padding-top: 5%;
-                
-             h1 {
-                font-size: 150%;
-            }
-            
-            h2{
-                font-size: 130%;
-                padding: 2%;
-            }
-            
-            p{
-                font-size: 100%;
-                line-height: 1.5;
-            }
-        }
-         #links {
-            width: 90%;
-            left: 5%;
-            margin-top: 1%;
-            
-            .media-links {
-                width:5%;
-                margin-top: 5%;
-                
-            }
-        }
-    }   
-}
-

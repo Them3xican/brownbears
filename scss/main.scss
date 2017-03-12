@@ -3,12 +3,11 @@ $HeaderColor: #191919;
 $Font: 'Roboto',
 sans-serif;
 $FontColor: #EFEFEF;
-$desktop-max: 1920px;
-$desktop-min: 1025px;
-$tablet-max: 1024px;
-$tablet-min: 768px;
-$phone-max: 740px;
-$phone-min:320px;
+$desktop: 1920px;
+$tablet-landscape: 1024px;
+$tablet-portrait:768px;
+$phone-landscape: 740px;
+$phone-portrait: 414px;
 body {
     margin: 0 auto;
     padding: 0;
@@ -21,7 +20,7 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: 1920px;
+    max-width: $desktop;
     text-align: center;
 }
 
@@ -140,37 +139,14 @@ body {
 }
 
 
-/* Tablet Portait */
-
-@media (max-width: 768px) {
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: 768px;
-        .scroll {
-            display: none;
-        }
-        #pic-table {
-            margin-top: 30%;
-        }
-        #links {
-            .media-links {
-                width: 6%;
-            }
-        }
-    }
-}
-
-
 /* Tablet Landscape */
 
-@media (max-width: 1024px) {
+@media (max-width: $tablet-landscape) {
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        max-width: 1024px;
+        max-width: $tablet-landscape;
         .logo {
             margin: 0;
             padding: 0;
@@ -197,9 +173,32 @@ body {
 }
 
 
+/* Tablet Portait */
+
+@media (max-width: $tablet-portrait) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $tablet-portrait;
+        .scroll {
+            display: none;
+        }
+        #pic-table {
+            margin-top: 30%;
+        }
+        #links {
+            .media-links {
+                width: 6%;
+            }
+        }
+    }
+}
+
+
 /* Mobile Landscape */
 
-@media (max-width: 740px) {
+@media (max-width: $phone-landscape) {
     .container {
         margin: 0 auto;
         padding: 0;
@@ -224,7 +223,7 @@ body {
 
 /* Mobile Portrait */
 
-@media (max-width: 320px) {
+@media (max-width: $phone-portrait) {
     .container {
         margin: 0 auto;
         padding: 0;
