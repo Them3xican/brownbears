@@ -114,6 +114,7 @@ body {
 
 
 /* Tablet Landscape */
+<<<<<<< Updated upstream
 
 @media (max-width: $tablet-landscape) {
     .container {
@@ -138,6 +139,8 @@ body {
 
 
 /* Tablet Portait */
+=======
+>>>>>>> Stashed changes
 
 @media (max-width: $tablet-portrait) {
     .container {
@@ -155,22 +158,32 @@ body {
 }
 
 
+<<<<<<< Updated upstream
 /* Mobile Landscape */
 
 @media (max-width: $phone-landscape) {
+=======
+/* Tablet Portait */
+
+@media (max-width: 768px) {
+>>>>>>> Stashed changes
     .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
+<<<<<<< Updated upstream
         max-width: $phone-landscape;
         ;
         #logo-holder {
             margin-top: 1%;
+=======
+        max-width: 768px;
+        #logo-holder {
+            margin-top: 20%;
+>>>>>>> Stashed changes
             width: 80%;
+            position: relative;
             left: 10%;
-            .logo {
-                width: 100%;
-            }
         }
     }
 }
@@ -188,6 +201,26 @@ body {
             margin: 0;
             padding: 0;
             margin-top: 200px;
+            width: 80%;
+            left: 10%;
+            .logo {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+/* Mobile Portrait */
+
+@media (max-width: 320px) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 320px;
+        #logo-holder {
+            margin-top: 25%;
             width: 80%;
             left: 10%;
             .logo {
