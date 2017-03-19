@@ -162,12 +162,6 @@ nav a:hover {
     color: #999
 }
 
-a,
-.menu,
-.menu li {
-    transition: all 0.3s ease-out
-}
-
 #logo-holder {
     margin: 0 auto;
     padding: 0;
@@ -448,54 +442,3 @@ a,
     }
 }
 
-#menu-icon {
-    height: 100px;
-    position: fixed;
-    left: 70%;
-    z-index: 20;
-}
-
-.menu {
-    display: block;
-    width: 60px;
-    padding: 2;
-}
-
-.menu:hover {
-    cursor: pointer;
-}
-
-.menu li {
-    list-style: none;
-    margin: 5px 0;
-}
-
-.top,
-.mid,
-.bttm {
-    position: relative;
-    top: 11px;
-    width: 60px;
-    height: 8px;
-    background-color: white;
-}
-
-.on .top {
-    transform: rotate(45deg);
-    top: 16px;
-    transition: all .25s;
-}
-
-.on .bttm {
-    transform: rotate(-45deg);
-    top: 5px;
-    transition: all .25s;
-}
-
-.on .mid {
-    display: none;
-}
-
-.on li {
-    background-color: white;
-}
