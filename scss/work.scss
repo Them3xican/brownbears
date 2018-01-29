@@ -1,4 +1,5 @@
 $BackColor: #2B2B2B;
+$Try: red;
 $HeaderColor: #191919;
 $Font: 'Roboto',
 sans-serif;
@@ -30,64 +31,6 @@ body {
     width: 100%;
 }
 
-.col-1 {
-    width: 8.33333333333%;
-}
-
-.col-2 {
-    width: 16.6666666667%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.3333333333%;
-}
-
-.col-5 {
-    width: 41.6666666667%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.3333333333%;
-}
-
-.col-8 {
-    width: 66.6666666666%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.3333333333%;
-}
-
-.col-11 {
-    width: 91.6666666666%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
-[class*="col-"] {
-    float: left;
-}
-
-[class*="col-"]:last-of-type {}
-
-.row:before:after {
-    clear: both;
-    content: "";
-}
 
 .menu {
     width: 60px;
@@ -217,8 +160,10 @@ a,
             text-align: center;
             .project-pic {
                 width: 100%;
+               
             }
         }
+        
         #project-info {
             text-align: center;
             h1 {
@@ -232,6 +177,40 @@ a,
             p {
                 font-family: $Font;
                 font-size: 130%;
+                color: $FontColor;
+                width: 80%;
+                position: relative;
+                left: 10%;
+            }
+        }
+    }
+}
+
+#app-concept {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 5%;
+    margin-top: 2%;
+    #concepts {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        position: relative;
+        left: 2%;
+        margin-top: 2%;
+        height: 100%;
+        #phone-pic {
+            text-align: center;
+            #phone {
+                width: 50%;
+            }
+        }
+        #phone-info {
+            text-align: center;
+             h1 {
+                font-family: $Font;
+                font-size: 150%;
                 color: $FontColor;
                 width: 80%;
                 position: relative;
